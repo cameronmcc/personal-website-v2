@@ -1,10 +1,11 @@
 import React from "react";
+import InfoSection from "../InfoSection/InfoSection";
 import "./style.css";
 
 const Home = () => {
   return (
     <>
-      <div className='section-container'>Hello</div>{" "}
+      <InfoSection>Hello</InfoSection>
     </>
   );
 };

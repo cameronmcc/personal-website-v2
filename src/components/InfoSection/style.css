@@ -1,0 +1,124 @@
+.info-section {
+  color: #fff;
+  padding: 160px 0;
+}
+
+.info-section-container {
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 18px;
+  background: linear-gradient(134deg, #40cbe4, #4688e3);
+}
+
+@media screen and (max-width: 991px) {
+  .info-section-container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+.info-row {
+  display: flex;
+  margin: 0 -15px -15px -15px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: "row-reverse";
+}
+
+.info-column {
+  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 1;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .info-column {
+    max-width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.text-wrapper {
+  max-width: 540px;
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .info-column {
+    padding-bottom: 65px;
+  }
+}
+
+.top-line {
+  color: "#a9b3c1";
+  font-size: 18px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  margin-bottom: 16px;
+}
+
+.heading {
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #f7f8fa;
+}
+
+.subtitle {
+  max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color: "#a9b3c1";
+}
+
+.btn {
+  border-radius: 4px;
+  background: #4b59f7;
+  white-space: nowrap;
+  padding: 12px 64px;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn :hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  background-color: #0467fb;
+}
+@media screen and (max-width: 960px) {
+  .btn {
+    width: 100%;
+  }
+}
+
+.img-wrapper {
+  max-width: 555px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img {
+  padding-right: 0;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: flex;
+  max-height: 500px;
+}
