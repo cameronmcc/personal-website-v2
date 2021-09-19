@@ -1,12 +1,11 @@
 .info-section {
   display: flex;
   flex-direction: column;
-  height: 100%;
   color: #fff;
   padding: 30px 0;
   padding-right: 50px;
   padding-left: 50px;
-  margin: -5rempx;
+  margin: -1rem;
 }
 
 .info-section-container {
@@ -17,9 +16,10 @@
   align-content: center;
   z-index: 1;
   width: 100%;
+  height: 100%;
   max-width: 100%;
   margin-right: auto;
-  margin-top: 5rem;
+  margin-top: 4rem;
   margin-left: auto;
   padding-right: 50px;
   padding-left: 50px;
@@ -30,14 +30,16 @@
 
 .info-section-container2 {
   display: flex;
+  padding: 10rem;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
   z-index: 1;
   width: 100%;
+  height: 100%;
   max-width: 100%;
-  margin-top: 5rem;
   margin-right: auto;
+  margin-top: 4rem;
   margin-left: auto;
   padding-right: 50px;
   padding-left: 50px;
@@ -55,17 +57,19 @@
 
 .info-row {
   display: flex;
+  height: 100%;
   margin: 0 -15px -15px -15px;
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: flex-end;
-  align-items: center;
   flex-direction: row;
+  flex-grow: 3;
+  max-height: 675px;
 }
 
 .info-column {
-  height: 675px;
   display: flex;
+  height: 100%;
   margin-bottom: 15px;
   padding-right: 15px;
   padding-left: 15px;
@@ -73,11 +77,14 @@
   justify-content: space-between;
   flex: 1;
   max-width: 50%;
+  flex-grow: 3;
+  max-height: 675px;
   flex-basis: 50%;
 }
 
 @media screen and (max-width: 768px) {
   .info-column {
+    height: auto;
     max-width: 100%;
     flex-basis: 100%;
     display: flex;
@@ -134,7 +141,7 @@
   cursor: pointer;
 }
 
-.btn :hover {
+.btn:hover {
   transition: all 0.3s ease-out;
   background: #fff;
   background-color: #0467fb;
@@ -151,19 +158,11 @@
   justify-content: flex-start;
 }
 
-.img {
-  display: flex;
-  padding-right: 0;
-  border: 0;
-  max-width: 100%;
-  vertical-align: flex-start;
-  max-height: 500px;
-}
-
 .info-image {
   display: flex;
   padding-right: 0;
   border: 0;
+  min-width: 50%;
   max-width: 100%;
   vertical-align: flex-start;
   align-items: center;
