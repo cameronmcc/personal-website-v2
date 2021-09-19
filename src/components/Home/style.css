@@ -1,0 +1,27 @@
+* {
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
+}
+
+.section-container {
+  display: flex;
+  margin: 1.5rem 1rem 0rem 1rem;
+  height: 675px;
+  width: auto;
+  padding: 1rem 1rem 1rem 1rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  background: linear-gradient(134deg, #40cbe4, #4688e3);
+}

@@ -1,3 +1,20 @@
 html {
+  scroll-behavior: smooth;
   font-size: 62.5%;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+.header {
+  font-size: 2rem;
 }
