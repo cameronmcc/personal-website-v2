@@ -1,7 +1,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
-  box-sizing: inherit;
+  /* box-sizing: inherit; */
 }
 
 .sticky {
@@ -18,4 +18,21 @@ html {
 
 .header {
   font-size: 2rem;
+}
+
+.container {
+  z-index: 1;
+  width: 100%;
+  max-width: 4000px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
