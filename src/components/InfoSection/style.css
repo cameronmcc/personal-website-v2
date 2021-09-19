@@ -21,6 +21,7 @@
   padding-left: 50px;
   border-radius: 18px;
   background: linear-gradient(134deg, #40cbe4, #4688e3);
+  box-shadow: 0px 14px 21px 4px #79b1d2;
 }
 
 @media screen and (max-width: 991px) {
