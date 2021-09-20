@@ -39,10 +39,10 @@ const InfoSection = () => {
               <div className='top-line' >
                 <div className='heading'>
                   <div className='subtitle'>
-                    Hi there! I'm Cameron and I'm a full stack developer specialized in using React with the MERN stack. I have also used Spring and Django. Feel free to check out some of my work below.
+                    Hi there! I'm Cameron and I'm a full stack developer specialized in making beautiful apps using React with the MERN stack. I've also coded in Spring and Django. Feel free to check out some of my work below.
                   </div>
                     <a href='projects'>
-                      <button className='btn'>Projects</button>
+                      <button className='btn2'>Technologies</button>
                     </a>
                 </div>
               </div>

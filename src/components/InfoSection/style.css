@@ -23,7 +23,7 @@
   margin-left: auto;
   padding-right: 50px;
   padding-left: 50px;
-  border-radius: 18px;
+  border-radius: 15px;
   background: linear-gradient(134deg, #40cbe4, #4688e3);
   box-shadow: 0px 14px 21px 4px #79b1d2;
 }
@@ -43,7 +43,7 @@
   margin-left: auto;
   padding-right: 50px;
   padding-left: 50px;
-  border-radius: 18px;
+  border-radius: 15px;
   background: linear-gradient(90deg, #ba81ff 0%, #ff6a95 99%);
   box-shadow: 0px 16px 36px 5px #ffb8cc;
 }
@@ -106,7 +106,7 @@
 
 .top-line {
   color: "#a9b3c1";
-  font-size: 18px;
+  font-size: 2rem;
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;
@@ -114,8 +114,8 @@
 }
 
 .heading {
-  margin-bottom: 24px;
-  font-size: 48px;
+  margin-top: rem;
+  font-size: 5rem;
   line-height: 1.1;
   font-weight: 600;
   color: #f7f8fa;
@@ -131,7 +131,7 @@
 
 .btn {
   border-radius: 4px;
-  background: #4b59f7;
+  background-image: url(), linear-gradient(320deg, #1590c9, #0467fb);
   white-space: nowrap;
   padding: 12px 64px;
   color: #fff;
@@ -139,15 +139,47 @@
   outline: none;
   border: none;
   cursor: pointer;
+  box-shadow: 0px 0px 35px -5px #0467fb;
 }
 
 .btn:hover {
   transition: all 0.3s ease-out;
   background: #fff;
-  background-color: #0467fb;
+  background-image: url(), linear-gradient(134deg, #1590c9, #0467fb);
+  box-shadow: 0px 0px 35px px #0467fb;
+  transition: all 0.1s ease-in;
+  transform: scale(1.05);
 }
 @media screen and (max-width: 960px) {
   .btn {
+    width: 100%;
+  }
+}
+
+.btn2 {
+  border-radius: 4px;
+  background-image: url(), linear-gradient(134deg, #418dff, #9763ff);
+  white-space: nowrap;
+  padding: 12px 64px;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 35px -10px #418dff;
+}
+
+.btn2:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  background-color: #0467fb;
+  background-image: url(), linear-gradient(320deg, #418dff, #9763ff);
+  box-shadow: 0px 0px 35px -8px #418dff;
+  transition: all 0.1s ease-in;
+  transform: scale(1.05);
+}
+@media screen and (max-width: 960px) {
+  .btn2 {
     width: 100%;
   }
 }
