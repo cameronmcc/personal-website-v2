@@ -12,15 +12,13 @@ const InfoSection = () => {
           <div className='info-column'>
             <div className='text-wrapper'>
               <div className='top-line'>
-                  Cameron McCloskey
+                Cameron McCloskey
                 <div className='heading'>
-                Welcome to my Personal Portfolio
-                  <div className='subtitle'>
-                    Full Stack Developr
-                  </div>
-                    <a href='projects'>
-                      <button className='btn'>Projects</button>
-                    </a>
+                  Welcome to my Personal Portfolio
+                  <div className='subtitle'>Full Stack Developr</div>
+                  <a href='projects'>
+                    <button className='btn'>Projects</button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -35,28 +33,30 @@ const InfoSection = () => {
       <section className='info-section-container2'>
         <div className='info-row'>
           <div className='info-column'>
-            <div className='text-wrapper'>
-              <div className='top-line' >
-                <div className='heading'>
-                  <div className='subtitle'>
-                    Hi there! I'm Cameron and I'm a full stack developer specialized in making beautiful apps using React with the MERN stack. I've also coded in Spring and Django. Feel free to check out some of my work below.
-                  </div>
-                    <a href='projects'>
-                      <button className='btn2'>Technologies</button>
-                    </a>
-                </div>
-              </div>
+            <div className='img-wrapper'>
+              <img className='info-image' src={svg3} alt='alt'></img>
             </div>
           </div>
           <div className='info-column'>
-            <div className='img-wrapper'>
-              <img className='info-image' src={svg3} alt='alt'></img>
+            <div className='text-wrapper'>
+              <div className='top-line'>
+                <div className='heading'>
+                  <div className='subtitle'>
+                    Hi there! I'm Cameron and I'm a full stack developer
+                    specialized in making beautiful apps using React with the
+                    MERN stack. I've also coded in Spring and Django. Feel free
+                    to check out some of my work below.
+                  </div>
+                  <a href='projects'>
+                    <button className='btn2'>Technologies</button>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </container>
-    
   );
 };
 

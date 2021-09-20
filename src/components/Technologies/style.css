@@ -1,0 +1,124 @@
+.gradient-container-top {
+  height: 25rem;
+  width: 100%;
+  display: block;
+  background: linear-gradient(white, 60%, #e8f0fa);
+}
+
+.gradient-container-bottom {
+  height: 25rem;
+  width: 100%;
+  display: block;
+  background: linear-gradient(#e8f0fa, 70%, white);
+}
+
+.technologies-container {
+  display: flex;
+  height: 50rem;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e8f0fa;
+}
+
+.info-white-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90%;
+  width: 56%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.tech-heading {
+  font-size: 6rem;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #252e4d;
+}
+
+.tech-items-container {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: 3rem 0;
+}
+
+.tech-item-1,
+.tech-item-2,
+.tech-item-3 {
+  border-radius: 10px;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  min-height: 165px;
+  min-width: 165px;
+}
+
+.tech-item-1 {
+  background: linear-gradient(120deg, #fadcf2, #fdeee0);
+}
+
+.tech-item-2 {
+  background: linear-gradient(120deg, #dcddfa, #dff6fd);
+}
+
+.tech-item-3 {
+  background: linear-gradient(120deg, #dcfaf4, #f8f7e0);
+}
+
+@media screen and (max-width: 960px) {
+  .tech-items-container {
+    height: auto;
+    min-width: 620px;
+    max-width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .info-white-bg {
+    min-width: 600px;
+    height: auto;
+    max-width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 2rem 2rem 2rem;
+  }
+}
+
+.tech-btn {
+  border-radius: 4px;
+  background: linear-gradient(60deg, #ffb0c6, #ffcc6d);
+  white-space: nowrap;
+  padding: 12px 64px;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.tech-btn:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  background: linear-gradient(320deg, #ffb0c6, #ffcc6d);
+  transition: all 0.1s ease-in;
+  transform: scale(1.02);
+}
+@media screen and (max-width: 960px) {
+  .tech-btn {
+    width: 95%;
+  }
+}

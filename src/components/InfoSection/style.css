@@ -114,7 +114,7 @@
 }
 
 .heading {
-  margin-top: rem;
+  /* margin-top: rem; */
   font-size: 5rem;
   line-height: 1.1;
   font-weight: 600;
