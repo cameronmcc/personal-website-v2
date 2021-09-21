@@ -11,7 +11,8 @@ const Technologies = () => {
         <div className='info-white-bg'>
           <div className='tech-heading'>Technologies</div>
           <section className='tech-items-container'>
-            <div className='tech-item-1'>
+            <div className='tech-item-squares-container'>
+              <div className='tech-item-1'>
               <DiReact size='5rem' classname='tech-icons' />
               <h1>Front-End</h1>
               <h3>React</h3>
@@ -26,10 +27,11 @@ const Technologies = () => {
             </div>
             <div className='tech-item-3'>
               <DiFirebase size='5rem' classname='tech-icons' />
-              <h1>Database Tech</h1>
+              <h1>Database{`${'   '}`   }    </h1>
               <h3>MongoDB</h3>
               <h3>SQL/NOSQL</h3>
               <h3>Django ORM</h3>
+            </div>
             </div>
           </section>
           <button className='tech-btn'>Go to Portfolio</button>

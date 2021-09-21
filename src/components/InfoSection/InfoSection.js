@@ -30,6 +30,7 @@ const InfoSection = () => {
           </div>
         </div>
       </section>
+          <div className='gradient-container'></div>
       <section className='info-section-container2'>
         <div className='info-row'>
           <div className='info-column'>

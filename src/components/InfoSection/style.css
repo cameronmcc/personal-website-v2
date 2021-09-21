@@ -1,3 +1,10 @@
+.gradient-container {
+  height: 10rem;
+  width: 100%;
+  display: block;
+  background-color: #fff;
+}
+
 .info-section {
   display: flex;
   flex-direction: column;
@@ -145,7 +152,7 @@
 .btn:hover {
   transition: all 0.3s ease-out;
   background: #fff;
-  background-image: url(), linear-gradient(134deg, #1590c9, #0467fb);
+  background-image: url(), linear-gradient(90deg, #1590c9, #0467fb);
   box-shadow: 0px 0px 35px px #0467fb;
   transition: all 0.1s ease-in;
   transform: scale(1.05);
