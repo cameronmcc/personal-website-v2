@@ -12,20 +12,20 @@ const Technologies = () => {
           <div className='tech-heading'>Technologies</div>
           <section className='tech-items-container'>
             <div className='tech-item-1'>
-              <DiReact size='5rem' classname='tech-icons' />
+              <DiReact size='5rem' className='tech-icons' />
               <h1>Front-End</h1>
               <h3>React</h3>
               <h3>CSS</h3>
               <h3>HTML</h3>
             </div>
             <div className='tech-item-2'>
-              <DiAptana size='5rem' classname='tech-icons' />
+              <DiAptana size='5rem' className='tech-icons' />
               <h1>Back-End</h1>
               <h3>Javascript</h3>
               <h3>Python</h3>
             </div>
             <div className='tech-item-3'>
-              <DiFirebase size='5rem' classname='tech-icons' />
+              <DiFirebase size='5rem' className='tech-icons' />
               <h1>Database Tech</h1>
               <h3>MongoDB</h3>
               <h3>SQL/NOSQL</h3>
