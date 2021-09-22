@@ -24,8 +24,8 @@
   padding-right: 50px;
   padding-left: 50px;
   border-radius: 15px;
-  background: linear-gradient(134deg, #40cbe4, #4688e3);
-  box-shadow: 0px 14px 21px 4px #79b1d2;
+  background: linear-gradient(134deg, #40cbe4, #9dbffa);
+  box-shadow: 0px 14px 21px 4px #aac7f9;
 }
 
 .info-section-container2 {
@@ -44,8 +44,8 @@
   padding-right: 50px;
   padding-left: 50px;
   border-radius: 15px;
-  background: linear-gradient(90deg, #ba81ff 0%, #ff6a95 99%);
-  box-shadow: 0px 16px 36px 5px #ffb8cc;
+  background: linear-gradient(90deg, #bfa1ea, #fd88a9 99%);
+  box-shadow: 0px 16px 35px 5px #bfa1ea;
 }
 
 @media screen and (max-width: 991px) {
@@ -74,7 +74,8 @@
   padding-right: 15px;
   padding-left: 15px;
   align-items: center;
-  justify-content: space-between;
+  align-content: space-around;
+  justify-content: center;
   flex: 1;
   max-width: 50%;
   flex-grow: 3;
@@ -131,7 +132,7 @@
 
 .btn {
   border-radius: 4px;
-  background-image: url(), linear-gradient(320deg, #1590c9, #0467fb);
+  background-image: url(), linear-gradient(320deg, #5c74ec, #0467fb);
   white-space: nowrap;
   padding: 12px 64px;
   color: #fff;
@@ -145,7 +146,7 @@
 .btn:hover {
   transition: all 0.3s ease-out;
   background: #fff;
-  background-image: url(), linear-gradient(134deg, #1590c9, #0467fb);
+  background-image: url(), linear-gradient(134deg, #6474fa, #0467fb);
   box-shadow: 0px 0px 35px px #0467fb;
   transition: all 0.1s ease-in;
   transform: scale(1.05);

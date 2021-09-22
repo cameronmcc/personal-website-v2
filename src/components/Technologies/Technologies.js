@@ -35,7 +35,6 @@ const Technologies = () => {
           <button className='tech-btn'>Go to Portfolio</button>
         </div>
       </div>
-      <div className='gradient-container-bottom'></div>
     </>
   );
 };
