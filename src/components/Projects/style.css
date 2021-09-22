@@ -1,19 +1,27 @@
 .project-gradient-container-top {
-  height: 30rem;
+  height: 32rem;
   width: 100%;
   display: block;
-  background: linear-gradient(#e8f0fa, 60%, #f3f8ff);
+  background: linear-gradient(#e8f0fa, 50%, #f3f8ff);
 }
 
 .project-gradient-container-bottom {
   height: 10rem;
   width: 100%;
   display: block;
-  background: linear-gradient(#f3f8ff, 70%, white);
+  background: white;
 }
 
 .projects-container-column {
-  background-image: url("../../images/bg.svg");
+  background: radial-gradient(at 50% 0%, #f3f8ff, transparent 80vh),
+    radial-gradient(circle at top left, #f3f8ff, transparent 80vw),
+    radial-gradient(circle at top right, #f3f8ff, transparent 80vw),
+    radial-gradient(at bottom left, white, transparent 80vw),
+    radial-gradient(at bottom right, white, transparent 80vw),
+    radial-gradient(at 50% 100%, white, transparent 80vw),
+    radial-gradient(at 50% 50%, #e5dfff, #c9ffef, #f5fff4);
+
+  /* background-image: url("../../images/bg.svg"); */
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -24,9 +32,14 @@
 }
 
 @media screen and (max-width: 901px) {
-  .projects-container {
-    height: 120rem;
+  .projects-container-column {
+    height: 150rem;
   }
+}
+
+.proj-heading-container {
+  display: flex;
+  width: 30rem;
 }
 
 .proj-items-container-row {
@@ -55,6 +68,8 @@
   font-weight: 600;
   position: relative;
   bottom: 20px;
+  border: 0.25rem solid #555b6d;
+  border-radius: 4px;
 }
 
 .proj-title {

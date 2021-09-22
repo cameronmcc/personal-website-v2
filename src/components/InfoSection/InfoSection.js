@@ -41,6 +41,7 @@ const InfoSection = () => {
             <div className='text-wrapper'>
               <div className='top-line'>
                 <div className='heading'>
+                  About Me
                   <div className='subtitle'>
                     Hi there! I'm Cameron and I'm a full stack developer
                     specialized in making beautiful apps using React with the
