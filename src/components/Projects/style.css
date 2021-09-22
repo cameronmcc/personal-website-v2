@@ -2,23 +2,25 @@
   height: 50rem;
   width: 100%;
   display: block;
-  background: linear-gradient(#e8f0fa, 60%, #f3fafb);
+  background: linear-gradient(#e8f0fa, 60%, #f3f8ff);
 }
 
 .project-gradient-container-bottom {
   height: 30rem;
   width: 100%;
   display: block;
-  background: linear-gradient(#f3fafb, 70%, white);
+  background: linear-gradient(#f3f8ff, 70%, white);
 }
 
 .projects-container-column {
+  background-image: url("../../images/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
-  height: 60rem;
+  height: 120rem;
   width: 100%;
   flex-direction: column;
   align-items: center;
-  background-color: #f3fafb;
 }
 
 @media screen and (max-width: 901px) {
@@ -64,6 +66,10 @@
   padding-left: 2.5rem;
 }
 
+/* .proj-1 {
+  background: linear-gradient(#fff1f1, #f1ffec);
+} */
+
 .proj-1,
 .proj-2,
 .proj-3 {
@@ -86,7 +92,6 @@
   color: #555b6d;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 1.1rem;
-  text-align: ;
 }
 
 .btn-wrapper {

@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import proj1 from "../../images/proj1.png";
+import bg from "../../images/bg.svg";
 
 const Projects = () => {
   return (
@@ -8,7 +9,6 @@ const Projects = () => {
       <div className='project-gradient-container-top'> </div>
       <div className='projects-container-column'>
         <div className='proj-heading'>Projects</div>
-
         <section className='proj-items-container-row'>
           <div className='proj-1'>
             <div className='proj-title'>Personal Website</div>
