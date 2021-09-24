@@ -13,7 +13,7 @@ const Technologies = () => {
           <section className='tech-items-container'>
             <div className='tech-item-1'>
               <div className='tech-item-row'>
-                <DiReact size='5rem' className='tech-icons' />
+                <DiReact size='6rem' className='tech-icons' />
               </div>
               <div className='tech-item-row2'>
                 <div className='tech-text-wrapper'>
@@ -26,7 +26,7 @@ const Technologies = () => {
             </div>
             <div className='tech-item-2'>
               <div className='tech-item-row'>
-                <DiAptana size='5rem' className='tech-icons' />
+                <DiAptana size='6rem' className='tech-icons' />
               </div>
               <div className='tech-item-row2'>
                 <div className='tech-text-wrapper'>
@@ -38,7 +38,7 @@ const Technologies = () => {
             </div>
             <div className='tech-item-3'>
               <div className='tech-item-row'>
-                <DiFirebase size='5rem' className='tech-icons' />
+                <DiFirebase size='6rem' className='tech-icons' />
               </div>
               <div className='tech-item-row2'>
                 <div className='tech-text-wrapper'>

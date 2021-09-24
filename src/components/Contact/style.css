@@ -1,0 +1,32 @@
+:root {
+  --first-color: #1a73e8;
+  --second-color: #80868b;
+  --border-color: #dadce8;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1230px) {
+  .contact-form {
+    flex-direction: column;
+    width: 80%;
+  }
+}
+
+.email .contact-form {
+  padding: 0.7rem 0.9rem;
+  border-radius: 0.2rem;
+  margin-right: 0.7rem;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  border: 0.2rem solid #fff;
+}
+
+input {
+  padding: "";
+}

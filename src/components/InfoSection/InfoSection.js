@@ -44,8 +44,8 @@ const InfoSection = () => {
                   About Me
                   <div className='subtitle'>
                     Hi there! I'm Cameron and I'm a full stack developer
-                    specialized in making beautiful apps using React with the
-                    MERN stack. I've also coded in Spring and Django. Feel free
+                    specialized in making React apps using the
+                    MERN Framework. I've also coded in Spring and Django. Feel free
                     to check out some of my work below.
                   </div>
                   <a href='projects'>
