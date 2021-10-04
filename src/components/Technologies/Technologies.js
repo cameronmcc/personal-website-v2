@@ -9,7 +9,11 @@ const Technologies = () => {
       <div className='gradient-container-top'></div>
       <div className='technologies-container'>
         <div className='info-white-bg'>
+          <div className='tech-heading-container'>
+          <div className='tech-heading-container2'>
           <div className='tech-heading'>Technologies</div>
+          </div>
+          </div>
           <section className='tech-items-container'>
             <div className='tech-item-1'>
               <div className='tech-item-row'>
