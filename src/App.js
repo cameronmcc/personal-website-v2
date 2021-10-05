@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Technologies from "./components/Technologies/Technologies";
-import Projects from "./components/Projects/Projects";
+// import Projects from "./components/Projects/Projects";
 import Footer from './components/Footer/Footer';
 import ContactForm from './components/Contact/Contact';
 import {Link as LinkS} from 'react-scroll';
@@ -16,8 +16,8 @@ function App() {
         <Navbar />
         <Home />
         <Technologies />
-        <Projects />
-        <Footer />
+        {/* <Projects /> */}
+        {/* <Footer /> */}
         <Switch>
           <Route path='/' exact />
         </Switch>

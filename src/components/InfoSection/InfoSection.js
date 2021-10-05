@@ -6,8 +6,8 @@ import { Link as LinkS } from "react-scroll";
 
 const InfoSection = () => {
   return (
-    <container className='info-section'>
-      <section className='info-section-container'>
+    <container className='info-section-container'>
+      <section className='info-section'>
         <div className='info-row'>
           <div className='info-column'>
             <div className='text-wrapper'>

@@ -6,16 +6,11 @@ import "./style.css";
 const Technologies = () => {
   return (
     <>
-      <div className='gradient-container-top'></div>
       <div className='technologies-container'>
-        <div className='info-white-bg'>
-          <div className='tech-heading-container'>
-          <div className='tech-heading-container2'>
           <div className='tech-heading'>Technologies</div>
-          </div>
-          </div>
           <section className='tech-items-container'>
-            <div className='tech-item-1'>
+
+            <div className='tech-items tech-item-1'>
               <div className='tech-item-row'>
                 <DiReact size='6rem' className='tech-icons' />
               </div>
@@ -28,7 +23,7 @@ const Technologies = () => {
                 </div>
               </div>
             </div>
-            <div className='tech-item-2'>
+            <div className='tech-items tech-item-2'>
               <div className='tech-item-row'>
                 <DiAptana size='6rem' className='tech-icons' />
               </div>
@@ -40,7 +35,7 @@ const Technologies = () => {
                 </div>
               </div>
             </div>
-            <div className='tech-item-3'>
+            <div className='tech-items tech-item-3'>
               <div className='tech-item-row'>
                 <DiFirebase size='6rem' className='tech-icons' />
               </div>
@@ -53,10 +48,13 @@ const Technologies = () => {
                 </div>
               </div>
             </div>
-          </section>
+          <div className='empty-grid empty-grid-item-1'></div>
+          <div className='empty-grid empty-grid-item-2'></div>
           <button className='tech-btn'>Go to Portfolio</button>
+          </section>
+
         </div>
-      </div>
+        <div className='gradient-container-bottom'></div>
     </>
   );
 };

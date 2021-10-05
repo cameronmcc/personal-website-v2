@@ -1,4 +1,4 @@
-.info-section {
+.info-section-container {
   display: flex;
   flex-direction: column;
   color: #fff;
@@ -8,7 +8,7 @@
   margin: -1rem;
 }
 
-.info-section-container {
+.info-section {
   display: flex;
   padding: 10rem;
   flex-direction: row;
@@ -16,14 +16,15 @@
   align-content: center;
   z-index: 1;
   width: 100%;
-  height: 80vh;
+  height: auto;
+  min-height: 80vh;
   max-width: 100%;
   margin-right: auto;
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-left: auto;
   padding-right: 50px;
   padding-left: 50px;
-  border-radius: 15px;
+  border-radius: 0.75rem;
   background: linear-gradient(134deg, #40cbe4, #9dbffa);
   box-shadow: 0px 14px 21px 4px #aac7f9;
 }
@@ -36,14 +37,15 @@
   align-content: center;
   z-index: 1;
   width: 100%;
-  height: 80vh;
+  height: auto;
+  min-height: 80vh;
   max-width: 100%;
   margin-right: auto;
   margin-top: 4rem;
   margin-left: auto;
   padding-right: 50px;
   padding-left: 50px;
-  border-radius: 15px;
+  border-radius: 0.75rem;
   background: linear-gradient(90deg, #bfa1ea, #fd88a9 99%);
   box-shadow: 0px 16px 35px 5px #bfa1ea;
 }
@@ -107,31 +109,31 @@
 
 .top-line {
   color: "#a9b3c1";
-  font-size: 2rem;
-  line-height: 16px;
+  font-size: 2.5rem;
+  line-height: 1.5rem;
   font-weight: 700;
-  letter-spacing: 1.4px;
-  margin-bottom: 16px;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
 }
 
 .heading {
-  /* margin-top: rem; */
-  font-size: 5rem;
+  font-size: 6rem;
   line-height: 1.1;
   font-weight: 600;
   color: #f7f8fa;
 }
 
 .subtitle {
+  margin-left: 0.2rem;
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.8rem;
   color: "#a9b3c1";
 }
 
 .btn {
-  border-radius: 4px;
+  border-radius: 0.8rem;
   background-image: url(), linear-gradient(320deg, #5c74ec, #0467fb);
   white-space: nowrap;
   padding: 12px 64px;
@@ -140,6 +142,7 @@
   outline: none;
   border: none;
   cursor: pointer;
+  font-weight: bold;
   box-shadow: 0px 0px 35px -5px #0467fb;
 }
 
@@ -158,7 +161,7 @@
 }
 
 .btn2 {
-  border-radius: 4px;
+  border-radius: 0.8rem;
   background-image: url(), linear-gradient(134deg, #418dff, #9763ff);
   white-space: nowrap;
   padding: 12px 64px;
@@ -167,6 +170,7 @@
   outline: none;
   border: none;
   cursor: pointer;
+  font-weight: bold;
   box-shadow: 0px 0px 35px -10px #418dff;
 }
 
