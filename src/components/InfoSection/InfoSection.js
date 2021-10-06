@@ -6,50 +6,50 @@ import { Link as LinkS } from "react-scroll";
 
 const InfoSection = () => {
   return (
-    <container className='info-section-container'>
-      <section className='info-section'>
-        <div className='info-row'>
-          <div className='info-column'>
-            <div className='text-wrapper'>
-              <div className='top-line'>
+    <container className="info-section-container">
+      <section className="info-section">
+        <div className="info-row">
+          <div className="info-column">
+            <div className="text-wrapper">
+              <div className="top-line">
                 Cameron McCloskey
-                <div className='heading'>
+                <div className="heading">
                   Welcome to my Personal Portfolio
-                  <div className='subtitle'>Full Stack Developr</div>
-                  <a href='projects'>
-                    <button className='btn'>Projects</button>
+                  <div className="subtitle">Full Stack Developr</div>
+                  <a href="projects">
+                    <button className="btn">Projects</button>
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div className='info-column'>
-            <div className='img-wrapper'>
-              <img className='info-image' src={svg2} alt='alt'></img>
+          <div className="info-column">
+            <div className="img-wrapper">
+              <img className="info-image" src={svg2} alt="alt"></img>
             </div>
           </div>
         </div>
       </section>
-      <section className='info-section-container2'>
-        <div className='info-row'>
-          <div className='info-column'>
-            <div className='img-wrapper'>
-              <img className='info-image' src={svg3} alt='alt'></img>
+      <section className="info-section-2">
+        <div className="info-row">
+          <div className="info-column">
+            <div className="img-wrapper">
+              <img className="info-image" src={svg3} alt="alt"></img>
             </div>
           </div>
-          <div className='info-column'>
-            <div className='text-wrapper'>
-              <div className='top-line'>
-                <div className='heading'>
+          <div className="info-column">
+            <div className="text-wrapper">
+              <div className="top-line">
+                <div className="heading">
                   About Me
-                  <div className='subtitle'>
+                  <div className="subtitle">
                     Hi there! I'm Cameron and I'm a full stack developer
-                    specialized in making React apps using the
-                    MERN Framework. I've also coded in Spring and Django. Feel free
-                    to check out some of my work below.
+                    specialized in making React apps using the MERN Framework.
+                    I've also coded in Spring and Django. Feel free to check out
+                    some of my work below.
                   </div>
-                  <a href='projects'>
-                    <button className='btn2'>Technologies</button>
+                  <a href="projects">
+                    <button className="btn2">Technologies</button>
                   </a>
                 </div>
               </div>
