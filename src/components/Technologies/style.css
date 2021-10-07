@@ -5,20 +5,26 @@ body {
 .technologies-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-top: 6rem;
   height: clamp(60vh, 75vh, 100%);
   width: 100%;
-  background-color: #fff;
+  background-color: #f3f8fd;
+}
+
+.content-wrapper {
+  max-width: 1400px;
+  width: 100%;
 }
 
 .tech-items-container {
   display: grid;
-  grid-template-rows: 25rem 25rem 25rem;
+  grid-template-rows: repeat(3, 25rem);
 }
 
 .tech-items {
   margin: 3rem 0 2rem 3rem;
-  border-left: 0.5rem solid #dbe2e8;
+  border-left: 0.5rem solid #ffa134;
   padding: 0 20px;
   display: grid;
   gap: 1rem;
@@ -27,36 +33,17 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-@scroll-timeline scrollProgress {
-  time-range: 1s;
-}
-
+/* animations */
 @keyframes iconsEntrance {
   to {
     transform: translateX(0);
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .tech-side-icons {
-    animation: iconsEntrance 1s 1;
+@media screen and (min-width: 1030px) {
+  .tech-icons {
+    display: flex;
   }
-}
-
-.tech-side-icons {
-  position: sticky;
-  transform: translateX(100%);
-  background-color: #dbe2e8;
-  border-radius: 0.75rem;
-  display: flex;
-  color: #252e4d;
-  height: 75%;
-  aspect-ratio: 1/1;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 13px 10px 38px -1px #dbe2e8;
-  animation: iconsEntrance 1s linear both;
-  animation-timeline: iconsEntrance;
 }
 
 @media screen and (min-width: 1030px) {
@@ -103,63 +90,146 @@ body {
   color: #fff;
   font-size: 2.5rem;
   font-weight: bold;
+  box-shadow: rgb(46 61 73 / 15%) 8px 10px 20px 0px;
 }
+
+/* For smaller screens */
+
+@media screen and (max-width: 1030px) {
+  .tech-heading {
+    margin: 5rem 0 3rem 0;
+  }
+
+  .tech-items-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tech-side-icons {
+    display: none;
+  }
+
+  .tech-items {
+    display: flex;
+    flex-direction: row;
+    flex-basis: content;
+    justify-content: space-around;
+    min-width: 25rem;
+    min-height: 20rem;
+    overflow: visible;
+    margin-left: 0;
+  }
+
+  .tech-item-row {
+    display: flex;
+    width: 90%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .tech-icons {
+    display: none;
+  }
+
+  .tech-items-heading {
+    font-size: 4rem;
+  }
+
+  .tech-items .tech-text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #FAFBFC .tech-btn-container {
+    width: 100%;
+    margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+  }
+
+  .tech-btn {
+    display: block;
+    width: 90vw;
+    margin: 3rem 0.1rem 2rem 0.1rem;
+    height: 8rem;
+  }
+}
+
+/* Desktop Screens */
 
 @media screen and (min-width: 1030px) {
   .tech-items-container {
-    display: grid;
-    grid-template-columns: 30rem 30rem 30rem;
-    grid-template-rows: 20rem 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
     max-width: 1600px;
-    place-content: center;
-    gap: 1rem;
     padding: 2rem;
   }
+
+  .tech-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 25rem;
+    min-height: 25rem;
+    overflow: scroll;
+  }
+
+  /* .tech-items .tech-btn-container {
+    display: block;
+    min-width: 100vw;
+  } */
 
   .tech-heading {
     display: inline-block;
     width: auto;
-    margin: 3rem 0 2rem 10vw;
+    margin: 12rem 0 2rem 3rem;
     font-size: 8rem;
   }
 
+  .tech-btn-container {
+    display: block;
+    height: 10rem;
+  }
+
   .tech-btn {
-    width: 25rem;
+    display: block;
+    width: 48rem;
+    margin: 3rem 0 2rem 3rem;
+    height: 6rem;
   }
 }
 
-.tech-item-1 {
+/* .tech-item-1 {
 }
 
 .tech-item-2 {
 }
 
 .tech-item-3 {
-}
+} */
 
 .tech-text-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  color: #252e4d;
+  color: #87888d;
 }
 
 .tech-items-heading {
-  font-size: 3.2rem;
+  font-size: 3.8rem;
   line-height: 1.1;
   font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 .tech-items h3 {
   margin-left: 0.2rem;
   max-width: 440px;
-  font-size: 2.1rem;
-  line-height: 2.8rem;
-}
-.gradient-container-bottom {
-  height: 30rem;
-  width: 100%;
-  display: block;
-  background: linear-gradient(white, 60%, #e8f0fa);
+  font-size: 2.4rem;
+  line-height: 3.5rem;
+  color: #252e4d;
 }

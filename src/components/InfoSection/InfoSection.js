@@ -7,7 +7,7 @@ import { Link as LinkS } from "react-scroll";
 const InfoSection = () => {
   return (
     <container className="info-section-container">
-      <section className="info-section">
+      <section className="info-sections info-section">
         <div className="info-row">
           <div className="info-column">
             <div className="text-wrapper">
@@ -30,7 +30,7 @@ const InfoSection = () => {
           </div>
         </div>
       </section>
-      <section className="info-section-2">
+      <section className="info-sections info-section-2">
         <div className="info-row">
           <div className="info-column">
             <div className="img-wrapper">
