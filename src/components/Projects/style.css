@@ -21,11 +21,12 @@
 
 .proj-white-bg {
   margin: 10vh auto 10vh auto;
-  display: flex;
   padding: 10rem 5rem 15rem 5rem;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
+  justify-content: center;
   z-index: 1;
   width: 100%;
   height: auto;
@@ -33,4 +34,32 @@
   border-radius: 0.75rem;
   background: #fff;
   box-shadow: rgb(46 61 73 / 15%) 8px 10px 20px 0px;
+}
+
+/* Grid */
+
+.proj-items-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-basis: content;
+  justify-content: space-around;
+  min-width: 25rem;
+  min-height: 20rem;
+  overflow: visible;
+  margin-left: 0;
+}
+
+.proj-item-row {
+  display: flex;
+  width: 90%;
+  justify-content: flex-start;
+  align-items: center;
 }

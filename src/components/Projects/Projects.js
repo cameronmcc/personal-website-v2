@@ -10,28 +10,30 @@ const Projects = () => {
         <div className="proj-white-bg">
           <h1 className="proj-heading">Projects</h1>
           <section className="proj-items-grid">
-            <div className="proj-1">
-              <div className="proj-title">Personal Website</div>
-              {/* <div className="proj-img-wrapper">
+            <div className=" projects proj-1">
+              <div className="project-items-row">
+                <div className="proj-title">Personal Website</div>
+                {/* <div className="proj-img-wrapper">
               <img className="proj-img" src="proj1.png" alt="proj1.png"></img>
             </div> */}
-              <div className="proj-text-wrapper">
-                <h2>
-                  A personal website using React. Fully dynamic using Hooks,
-                  useState, Smooth-scrooll, and modals.
-                </h2>
-              </div>
-              <div className="btn-wrapper">
-                <button className="prj-btn">
-                  <a href="https://github.com/cameronmcc/personal-website-v2"></a>
-                  Code
-                </button>
-                <button className="prj-btn">
-                  <a href="cameronmccloskey.com"></a>Live Site
-                </button>
+                <div className="proj-text-wrapper">
+                  <h2>
+                    A personal website using React. Fully dynamic using Hooks,
+                    useState, Smooth-scrooll, and modals.
+                  </h2>
+                </div>
+                <div className="btn-wrapper">
+                  <button className="prj-btn">
+                    <a href="https://github.com/cameronmcc/personal-website-v2"></a>
+                    Code
+                  </button>
+                  <button className="prj-btn">
+                    <a href="cameronmccloskey.com"></a>Live Site
+                  </button>
+                </div>
               </div>
             </div>
-            <div className="proj-2">
+            <div className="projectss proj-2">
               <div className="proj-title">React Menu App</div>
               {/* <div className="proj-img-wrapper">
               <img className="proj-img" src="proj2.png" alt="proj1.png"></img>
