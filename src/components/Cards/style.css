@@ -1,7 +1,11 @@
 .grid-wrapper {
+  height: clamp(50%, 28rem, 100%);
+  width: auto;
   display: grid;
-  height: 75rem;
-  width: 100%;
+  margin: 2rem;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+  justify-content: center;
 }
 
 .card__img {
@@ -10,4 +14,122 @@
   vertical-align: middle;
   display: inline-block;
   max-height: 23rem;
+}
+
+.card {
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 1rem 1rem 1rem 1rem;
+  box-shadow: var(--bx-shdw) 5px 10px 20px 5px;
+  border-radius: var(--radius);
+  min-height: 26rem;
+  min-width: 28rem;
+  max-width: auto;
+  display: flex;
+}
+
+.card-accent-1 {
+  border-top: 0.5rem solid var(--first-color);
+}
+.card-accent-2 {
+  border-top: 0.5rem solid var(--second-color);
+}
+.card-accent-3 {
+  border-top: 0.5rem solid var(--fifth-colior);
+}
+.card__img {
+  height: 22rem;
+  width: 28rem;
+  object-fit: cover;
+  padding: 2rem 2rem 2rem 2rem;
+  filter: drop-shadow(8px 12px 10px var(--bx-shdw));
+}
+
+.card__body {
+  letter-spacing: 0.15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2rem 2.2rem 2.2rem 2rem;
+  height: 22rem;
+}
+
+.card__title {
+  margin-top: 0.5rem;
+  min-height: 3rem;
+  max-height: 4rem;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.card__description {
+  display: block;
+  font-size: 2rem;
+  line-height: 2.2rem;
+}
+
+.card-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card__btn {
+  display: block;
+  color: #555b6d;
+  font-family: 'IBM Plex Sans', sans-serif;
+  border: none;
+  border-radius: 5px;
+  background: inherit;
+  white-space: nowrap;
+  font-size: 1.8rem;
+  outline: none;
+  cursor: pointer;
+  width: 45%;
+  height: 4rem;
+  box-shadow: var(--bx-shdw) 5px 10px 20px 5px;
+}
+
+.card__btn:hover {
+  background: #555b6d3f;
+  transform: scale(1.2);
+  transition: all 0.2s ease-in;
+}
+
+/* For tiny Screens */
+
+@media screen and (max-width: 760px) {
+  .card__body {
+    letter-spacing: 0.1rem;
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+  .card__title {
+    margin-top: 1rem;
+    min-height: 2.5rem;
+    font-size: 2.8rem;
+    line-height: 2.5rem;
+  }
+
+  .card__description {
+    line-height: 2rem;
+  }
+}
+
+/* For Desktop */
+
+@media screen and (min-width: 1030px) {
+  .grid-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    height: clamp(50%, 75rem, 100%);
+    gap: 0.2rem;
+  }
+
+  .card {
+    flex-direction: column;
+    min-height: 55rem;
+    min-width: 32rem;
+    max-width: 38rem;
+  }
 }

@@ -54,7 +54,7 @@
 
 .proj-heading {
   color: #555b6d;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   padding: 1rem 2rem 1rem 2rem;
   font-size: 6rem;
   line-height: 1.1;
@@ -74,7 +74,7 @@
   justify-content: center;
   overflow: hidden;
   white-space: nowrap;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 2.4rem;
   width: 100%;
 }
@@ -82,7 +82,7 @@
 .proj-1,
 .proj-2,
 .proj-3 {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   padding: 1rem 1rem 1rem 1rem;
   filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.25));
   border-radius: 0.8rem;
@@ -116,7 +116,7 @@
 
 .proj-text-wrapper h2 {
   color: #555b6d;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1.8rem;
 }
 
@@ -129,7 +129,7 @@
 .prj-btn {
   display: block;
   color: #555b6d;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   border: 0.25rem solid #555b6d3f;
   border-radius: 5px;
   background: inherit;

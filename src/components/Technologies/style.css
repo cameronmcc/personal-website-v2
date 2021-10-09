@@ -6,15 +6,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 6rem;
-  height: clamp(60vh, 75vh, 100%);
+  margin-top: 10rem;
+  height: clamp(100rem, 120rem, 100%);
   width: 100%;
   background-color: #f3f8fd;
 }
 
 .content-wrapper {
-  max-width: 1400px;
   width: 100%;
+  max-width: 1400px;
 }
 
 /* Grid */
@@ -92,7 +92,7 @@ body {
   color: #fff;
   font-size: 2.5rem;
   font-weight: bold;
-  box-shadow: rgb(46 61 73 / 15%) 8px 10px 20px 0px;
+  box-shadow: var(--bx-shdw) 8px 10px 20px 0px;
 }
 
 /* For smaller screens */

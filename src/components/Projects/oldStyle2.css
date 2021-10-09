@@ -11,6 +11,7 @@
 .proj-heading {
   margin-top: 10rem;
   display: flex;
+  margin-left: 50vw;
   align-items: center;
   justify-content: center;
   font-size: 6rem;

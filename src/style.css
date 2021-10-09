@@ -5,16 +5,18 @@ html {
 }
 
 :root {
-  --bg-color-1: #01b3e4;
+  --bg-color-1: #fff;
   --bg-color-2: #f3f8fd;
   --font-color-1: #252e4d;
   --btn-color-1: #252e4d;
+  --btn-color-2: #017a9b;
   --first-color: #01b3e4;
   --second-color: #cd9cff;
   --third-color: #bfa1ea;
   --fourth-color: #fd88a9;
   --fifth-colior: #ffa134;
   --bx-shdw: rgb(46 61 73 / 15%);
+  --radius: 0.75rem;
 }
 
 .sticky {
