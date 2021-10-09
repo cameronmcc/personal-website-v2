@@ -1,15 +1,4 @@
-<<<<<<< HEAD
-.gradient-container {
-  height: 10rem;
-  width: 100%;
-  display: block;
-  background-color: #fff;
-}
-
-.info-section {
-=======
 .info-section-container {
->>>>>>> beta
   display: flex;
   flex-direction: column;
   color: #fff;
@@ -122,7 +111,7 @@
 }
 
 .top-line {
-  color: "#a9b3c1";
+  color: '#a9b3c1';
   font-size: 2.5rem;
   line-height: 1.5rem;
   font-weight: 700;
@@ -143,7 +132,7 @@
   margin-bottom: 35px;
   font-size: 2rem;
   line-height: 2.8rem;
-  color: "#a9b3c1";
+  color: '#a9b3c1';
 }
 
 .btn {
@@ -163,13 +152,8 @@
 .btn:hover {
   transition: all 0.3s ease-out;
   background: #fff;
-<<<<<<< HEAD
-  background-image: url(), linear-gradient(90deg, #1590c9, #0467fb);
-  box-shadow: 0px 0px 35px px #0467fb;
-=======
   background-image: url(), linear-gradient(134deg, #6474fa, #0467fb);
   box-shadow: rgb(46 61 73 / 15%) 8px 10px 20px 0px;
->>>>>>> beta
   transition: all 0.1s ease-in;
   transform: scale(1.05);
 }
