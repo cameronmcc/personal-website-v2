@@ -1,0 +1,37 @@
+.footer-container {
+  background-color: #fff;
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  color: #252e4d;
+}
+
+.footer-heading-1 {
+  font-family: "Mulish", sans-serif;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.footer-subheading {
+  font-family: "Mulish", sans-serif;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.footer-subtext {
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+}
