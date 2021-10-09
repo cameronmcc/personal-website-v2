@@ -17,6 +17,8 @@ body {
   width: 100%;
 }
 
+/* Grid */
+
 .tech-items-container {
   display: grid;
   grid-template-rows: repeat(3, 25rem);

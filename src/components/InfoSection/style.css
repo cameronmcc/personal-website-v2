@@ -21,7 +21,7 @@
   max-width: 1400px;
   border-radius: 0.75rem;
   background: linear-gradient(160deg, #01b3e4, #cd9cff);
-  box-shadow: rgb(46 61 73 / 15%) 8px 10px 20px 0px;
+  box-shadow: var(--bx-shdw) 8px 10px 20px 0px;
 }
 
 .info-section-2 {
@@ -37,7 +37,7 @@
   max-width: 1400px;
   border-radius: 0.75rem;
   background: linear-gradient(90deg, #bfa1ea, #fd88a9 99%);
-  box-shadow: rgb(46 61 73 / 15%) 8px 10px 20px 0px;
+  box-shadow: var(--bx-shdw) 8px 10px 20px 0px;
 }
 
 /* Some Desktop properties */
