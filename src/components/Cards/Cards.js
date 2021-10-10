@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './style.css';
 import { data } from '../Projects/data';
 
@@ -8,9 +8,10 @@ const Cards = ({ ...props }) => {
       {data.map((props) => {
         return (
           <div className={`card ${props.accentClass}`}>
-            <img src={props.img} alt='alt' className='card__img' />
             <div className='card__body'>
               <h2 className='card__title'>{props.title}</h2>
+
+              <img src={props.img} alt='alt' className='card__img' />
               <p className='card__description'>{props.desc}</p>
               <div className='card-btn-wrapper'>
                 <button className='card__btn'>

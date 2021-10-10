@@ -1,6 +1,6 @@
-body {
+/* body {
   overflow-x: hidden;
-}
+} */
 
 .technologies-container {
   display: flex;
@@ -36,7 +36,7 @@ body {
 }
 
 /* animations */
-@keyframes iconsEntrance {
+/* @keyframes iconsEntrance {
   to {
     transform: translateX(0);
   }
@@ -52,7 +52,7 @@ body {
   .tech-side-icons {
     display: none;
   }
-}
+} */
 
 .tech-icons {
   color: #252e4d;
@@ -145,7 +145,7 @@ body {
     align-items: center;
     justify-content: center;
   }
-  #FAFBFC .tech-btn-container {
+  .tech-btn-container {
     width: 100%;
     margin: 0.1rem 0.1rem 0.1rem 0.1rem;
   }
@@ -176,7 +176,6 @@ body {
     align-items: center;
     min-width: 25rem;
     min-height: 25rem;
-    overflow: scroll;
   }
 
   /* .tech-items .tech-btn-container {
@@ -187,19 +186,20 @@ body {
   .tech-heading {
     display: inline-block;
     width: auto;
-    margin: 12rem 0 2rem 3rem;
+    margin: 20rem 0 5rem 5rem;
     font-size: 8rem;
   }
 
   .tech-btn-container {
     display: block;
-    height: 10rem;
+    height: 15rem;
+    margin-top: 5rem;
   }
 
   .tech-btn {
     display: block;
     width: 48rem;
-    margin: 3rem 0 2rem 3rem;
+    margin: 3rem 0 0 5rem;
     height: 6rem;
   }
 }

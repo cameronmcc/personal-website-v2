@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-import { DiCssdeck } from "react-icons/di";
-import { IconContext } from "react-icons/lib";
-import { Link as LinkS, animateScroll as scroll } from "react-scroll";
-import "./style.css";
+import React, { useState, useEffect } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { DiCssdeck } from 'react-icons/di';
+import { IconContext } from 'react-icons/lib';
+import { Link as LinkS, animateScroll as scroll } from 'react-scroll';
+import './style.css';
 
 const Navbar = () => {
   // State Values
@@ -20,12 +20,12 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", changeNav);
+    window.addEventListener('scroll', changeNav);
   }, []);
 
   const clickHandler = () => setClick(!click);
 
-  // When setClick is false the mobile menu disappears.
+  // When the mobile menu disappears setclick is set to false
   const closeMobileMenu = () => setClick(false);
 
   // This function utilizes animateScroll from 'react-icons' to scroll to the top of the page
@@ -46,7 +46,7 @@ const Navbar = () => {
     showButton();
   }, []);
 
-  window.addEventListener("resize", showButton);
+  window.addEventListener('resize', showButton);
 
   return (
     <>
@@ -59,7 +59,7 @@ const Navbar = () => {
           <div className='menu-icon' onClick={clickHandler}>
             {click ? <FaTimes /> : <FaBars />}
           </div>
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <a href='/' className='nav-links' onClick={closeMobileMenu}>
                 Home

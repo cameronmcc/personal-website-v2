@@ -9,9 +9,11 @@ const Projects = () => {
           <h1 className='proj-heading'>Projects</h1>
         </div>
         <Cards />
-        <button className='contact-btn'>
-          <a href='#'></a>Contact
-        </button>
+        <div className='contact-btn-container'>
+          <button className='contact-btn'>
+            <a href='#'></a>Contact
+          </button>
+        </div>
       </div>
     </div>
   );

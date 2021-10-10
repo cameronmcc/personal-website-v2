@@ -18,9 +18,9 @@ function App() {
         <Technologies />
         <Projects />
         {/* <Footer /> */}
-        <Switch>
+        {/* <Switch>
           <Route path='/' exact />
-        </Switch>
+        </Switch> */}
       </Router>
     </>
   );

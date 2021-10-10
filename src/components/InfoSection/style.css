@@ -137,7 +137,7 @@
 
 .btn {
   border-radius: 0.8rem;
-  background-image: url(), linear-gradient(320deg, #5c74ec, #0467fb);
+  background: linear-gradient(320deg, #5c74ec, #0467fb);
   white-space: nowrap;
   padding: 1.5rem 16rem;
   color: #fff;
@@ -152,7 +152,7 @@
 .btn:hover {
   transition: all 0.3s ease-out;
   background: #fff;
-  background-image: url(), linear-gradient(134deg, #6474fa, #0467fb);
+  background: linear-gradient(134deg, #6474fa, #0467fb);
   box-shadow: rgb(46 61 73 / 15%) 8px 10px 20px 0px;
   transition: all 0.1s ease-in;
   transform: scale(1.05);
@@ -165,7 +165,7 @@
 
 .btn2 {
   border-radius: 0.8rem;
-  background-image: url(), linear-gradient(134deg, #418dff, #9763ff);
+  background: linear-gradient(134deg, #418dff, #9763ff);
   white-space: nowrap;
   padding: 1.5rem 16rem;
   color: #fff;
@@ -181,7 +181,7 @@
   transition: all 0.3s ease-out;
   background: #fff;
   background-color: #0467fb;
-  background-image: url(), linear-gradient(320deg, #418dff, #9763ff);
+  background: linear-gradient(320deg, #418dff, #9763ff);
   box-shadow: rgb(46 61 73 / 15%) 8px 10px 20px 0px;
   transition: all 0.1s ease-in;
   transform: scale(1.05);
