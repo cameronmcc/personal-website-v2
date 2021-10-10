@@ -50,5 +50,6 @@ html {
   .container {
     padding-right: 30px;
     padding-left: 30px;
+    width: 100%;
   }
 }
