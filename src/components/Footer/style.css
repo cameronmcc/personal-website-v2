@@ -1,11 +1,27 @@
 .footer-container {
-  background-color: #fff;
+  background: linear-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#fff),
+    to(rgba(169, 81, 237, 0.1))
+  );
+  background: linear-gradient(top left, #fff 0, rgba(169, 81, 237, 0.1));
+  background: linear-gradient(to bottom right, #fff 0, rgba(169, 81, 237, 0.1));
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 100%;
+}
+
+.grid-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .footer-contact {
@@ -13,25 +29,43 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
   margin-bottom: 1.5rem;
   padding: 1.5rem;
   color: #252e4d;
 }
 
 .footer-heading-1 {
-  font-family: "Mulish", sans-serif;
   margin-bottom: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 .footer-subheading {
-  font-family: "Mulish", sans-serif;
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .footer-subtext {
+  text-align: center;
   margin-bottom: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 4rem;
+}
+
+.section-title {
+  margin: 15rem 15rem 8rem 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+  line-height: 0.8;
+  font-weight: 600;
+  color: #252e4d;
+  font-size: 8rem;
+}
+
+.contact__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

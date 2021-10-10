@@ -1,26 +1,48 @@
-.contact-form {
+.contact__form {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  font-size: 2rem;
 }
 
-@media screen and (max-width: 1230px) {
-  .contact-form {
-    flex-direction: column;
-    width: 80%;
-  }
-}
-
-.email .contact-form {
+.email,
+.name,
+.message,
+.submit {
   padding: 0.7rem 0.9rem;
-  border-radius: 0.2rem;
-  margin-right: 0.7rem;
+  border-radius: 1rem;
+  margin: 1rem;
   outline: none;
   border: none;
   font-size: 2rem;
   border: 0.2rem solid #fff;
+  width: 80%;
+  font-size: 2rem;
+  outline: 0.1rem solid rgb(206, 206, 206);
+  box-shadow: var(--bx-shdw) 8px 10px 20px 0px;
+}
+
+.submit {
+  background: linear-gradient(316deg, #3023ae, #c86dd7);
+  background: linear-gradient(134deg, #3023ae, #c86dd7);
+  color: #fff;
+  font-size: 3rem;
+  box-shadow: var(--bx-shdw) 8px 10px 20px 0px;
+  border-radius: 0.8rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 5rem 3rem 0 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
 }
 
 input {
-  padding: "";
+  padding: '';
 }

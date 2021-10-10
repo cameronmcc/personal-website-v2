@@ -17,7 +17,7 @@ function App() {
         <Home />
         <Technologies />
         <Projects />
-        {/* <Footer /> */}
+        <Footer />
         {/* <Switch>
           <Route path='/' exact />
         </Switch> */}

@@ -20,7 +20,7 @@
 .card {
   padding: 1rem;
   margin: 2rem;
-  box-shadow: var(--bx-shdw) 5px 10px 20px 5px;
+  box-shadow: var(--bx-shdw) 5px 10px 20px 02px;
   border-radius: var(--radius);
   min-width: 28rem;
   display: grid;
@@ -83,12 +83,12 @@
   cursor: pointer;
   width: 48%;
   height: 5rem;
-  box-shadow: var(--bx-shdw) 5px 10px 18px 2px;
+  box-shadow: var(--bx-shdw) 4px 11px 12px 2px;
 }
 
 .card__btn:hover {
   background: #555b6d3f;
-  transform: scale(1.06);
+  transform: scale(1.01);
   transition: all 0.2s ease-in;
 }
 
