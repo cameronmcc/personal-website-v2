@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   color: #fff;
+
+  background: linear-gradient(to bottom, var(--bg-color-2), var(--bg-color-3));
   padding: 2rem 0;
   padding-right: 3rem;
   padding-left: 3rem;
@@ -20,29 +22,12 @@
   height: auto;
   max-width: 1400px;
   border-radius: 0.75rem;
-  background: linear-gradient(160deg, #01b3e4, #cd9cff);
+  background: linear-gradient(160deg, #01b3e4, #e2c6ff);
   box-shadow: var(--bx-shdw) 8px 10px 20px 0px;
 }
 
-.info-section::before {
-  content: '';
-  background-image: url('https://i1.wp.com/sterlinghsb.com/wp-content/uploads/2018/07/1066909-blue-background-wallpaper-1920x1200-high-resolution.jpg?ssl=1');
-  background-repeat: no-repeat;
-  background-size: cover;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.75;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .info-section-2 {
-  margin: 10vh auto 0 auto;
+  margin: 10vh auto 10rem auto;
   display: flex;
   padding: 10rem 5rem 15rem 5rem;
   flex-direction: row;
@@ -93,7 +78,7 @@ img {
 
 .top-line {
   color: '#a9b3c1';
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   line-height: 1.5rem;
   font-weight: 700;
   letter-spacing: 0.2rem;
@@ -101,7 +86,7 @@ img {
 }
 
 .heading {
-  font-size: 5rem;
+  font-size: 4.5rem;
   line-height: 1.1;
   font-weight: 600;
   color: #f7f8fa;

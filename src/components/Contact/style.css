@@ -43,6 +43,13 @@
   height: 5rem;
 }
 
+.submit:hover {
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  transform: scale(1.02);
+  box-shadow: var(--bx-shdw) 8px 10px 20px 0px;
+}
+
 input {
   padding: '';
   height: 4rem;

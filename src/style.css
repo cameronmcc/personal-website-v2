@@ -7,6 +7,7 @@ html {
 :root {
   --bg-color-1: #fff;
   --bg-color-2: #f3f8fd;
+  --bg-color-3: rgba(169, 81, 237, 0.1);
   --font-color-1: #252e4d;
   --btn-color-1: #252e4d;
   --btn-color-2: #017a9b;
@@ -15,6 +16,7 @@ html {
   --third-color: #bfa1ea;
   --fourth-color: #fd88a9;
   --fifth-colior: #ffa134;
+  --sixth-color: #a151ed;
   --bx-shdw: rgb(46 61 73 / 15%);
   --radius: 0.75rem;
 }

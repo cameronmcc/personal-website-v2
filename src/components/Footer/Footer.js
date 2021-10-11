@@ -19,16 +19,16 @@ const Footer = () => {
             <div className='socials-wrapper'>
               <div className='footer-subtext'>Socials:</div>
               <div className='socials-grid'>
-                <LinkR to='//github.com/cameronmcc'>
+                <LinkR to='https://www.github.com/cameronmcc'>
                   <AiFillGithub className='social-icons' />
                 </LinkR>
-                <a href='http://www.github.com/cameronmcc'>
+                <a href='https://www.linkedin.com/in/cameronmccloskey/'>
                   <AiFillLinkedin className='social-icons' />
                 </a>
-                <a href='github.com/cameronmcc'>
+                <a href='https://www.instagram.com/cameronmcc/'>
                   <AiFillInstagram className='social-icons' />
                 </a>
-                <a href='www.github.com/cameronmcc'>
+                <a href='https://leetcode.com/cameronmcc/'>
                   <SiLeetcode className='social-icons' />
                 </a>
               </div>

@@ -1,16 +1,8 @@
 .footer-container {
-  background: linear-gradient(
-    linear,
-    left top,
-    right bottom,
-    from(#fff),
-    to(rgba(169, 81, 237, 0.1))
-  );
-  background: linear-gradient(top left, #fff 0, rgba(169, 81, 237, 0.1));
   background: linear-gradient(to bottom right, #fff 0, rgba(169, 81, 237, 0.1));
   padding-top: 2rem;
   padding-bottom: 2rem;
-  padding: 4rem 0 2rem 0;
+  padding: 4rem 0 0rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -85,24 +77,30 @@
 }
 
 .bottom-content {
-  height: 20rem;
+  margin-top: 10rem;
+  background-image: linear-gradient(
+    90deg,
+    var(--first-color),
+    var(--sixth-color)
+  );
+
+  min-height: 5rem;
+  height: auto;
   width: 100%;
+  font-size: 2rem;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
 }
 
 @media screen and (max-width: 600px) {
   .bottom-text {
-    margin-top: 6rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
-  .submit {
-    font-size: 4rem;
-    height: 6rem;
-    padding: 1rem;
+  .bottom-content {
+    height: 12rem;
   }
 }
 

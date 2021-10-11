@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10rem;
+
   height: clamp(100rem, 120rem, 100%);
   width: 100%;
-  background-color: #f3f8fd;
+  background-color: var(--bg-color-2);
 }
 
 .content-wrapper {
@@ -28,6 +28,11 @@
   align-items: center;
   grid-template-columns: repeat(4, 1fr);
 }
+
+.tech-items:hover {
+  transition: all 0.2s ease-in;
+  transform: scale(1.1);
+}
 .tech-icons {
   color: #252e4d;
 }
@@ -46,7 +51,11 @@
   justify-content: center;
   align-items: center;
   height: 5rem;
-  background-color: #017a9b;
+  background-image: linear-gradient(
+    160deg,
+    var(--btn-color-2),
+    var(--first-color)
+  );
   border-radius: 0.8rem;
   width: calc(100vw - 6rem);
   outline: none;
@@ -57,6 +66,12 @@
   font-size: 2.5rem;
   font-weight: bold;
   box-shadow: var(--bx-shdw) 8px 10px 20px 0px;
+}
+
+.tech-btn:hover {
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  transform: scale(1.02);
 }
 
 /* For smaller screens */
