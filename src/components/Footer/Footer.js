@@ -1,22 +1,50 @@
 import React from 'react';
 import './style.css';
 import ContactForm from '../Contact/Contact';
+import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
+import { SiLeetcode } from 'react-icons/si';
+import { IconContext } from 'react-icons/lib';
+import { Link as LinkR } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <>
-      <div className='footer-container'>
-        <div className='grid-wrapper'>
+      <IconContext.Provider value={{ size: '7rem', color: '#252e4d' }}>
+        <div className='footer-container'>
           <h2 className='section-title'>Contact</h2>
-          <div classNa me='footer-contact'>
-            <div className='footer-heading-1'>
-              Thanks for visiting! Feel free to reach out and connect.
-            </div>
-            <div className='footer-subtext'>Drop a message:</div>
+          <div className='footer-heading-1'>
+            Thanks for visiting! Feel free to reach out and connect.
           </div>
-          <ContactForm />
+          <div className='grid-wrapper'>
+            <div className='socials-wrapper'>
+              <div className='footer-subtext'>Socials:</div>
+              <div className='socials-grid'>
+                <LinkR to='//github.com/cameronmcc'>
+                  <AiFillGithub className='social-icons' />
+                </LinkR>
+                <a href='http://www.github.com/cameronmcc'>
+                  <AiFillLinkedin className='social-icons' />
+                </a>
+                <a href='github.com/cameronmcc'>
+                  <AiFillInstagram className='social-icons' />
+                </a>
+                <a href='www.github.com/cameronmcc'>
+                  <SiLeetcode className='social-icons' />
+                </a>
+              </div>
+            </div>
+            <div className='form-container'>
+              <div className='footer-subtext'>Drop a message:</div>
+              <ContactForm />
+            </div>
+          </div>
+          <div className='bottom-content'>
+            <h4 className='bottom-text'>
+              This website was designed and coded by Cameron McCloskey. (c) 2021
+            </h4>
+          </div>
         </div>
-      </div>
+      </IconContext.Provider>
     </>
   );
 };

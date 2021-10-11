@@ -204,9 +204,6 @@
     font-weight: bold;
     white-space: nowrap;
   }
-
-  element.style {
-  }
   .info-image {
     max-width: 320px;
   }
@@ -233,7 +230,10 @@
 @media screen and (max-width: 1030px) {
   .btn,
   .btn2 {
-    width: 100%;
+    padding: 1.5rem 10rem;
+  }
+  .info-row {
+    align-items: center;
   }
 }
 

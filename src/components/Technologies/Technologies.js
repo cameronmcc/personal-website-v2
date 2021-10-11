@@ -1,20 +1,5 @@
 import React from 'react';
-import {
-  DiReact,
-  DiFirebase,
-  DiAptana,
-  DiMongodb,
-  DiMysql,
-  DiDjango,
-} from 'react-icons/di';
-// import {
-//   IoLogoNodejs,
-//   IoLogoCss3,
-//   IoLogoHtml5,
-//   IoLogoPython,
-//   IoLogoJavascript,
-// } from "react-icons/io";
-
+import { DiReact, DiFirebase, DiAptana } from 'react-icons/di';
 import { IconContext } from 'react-icons/lib';
 import './style.css';
 

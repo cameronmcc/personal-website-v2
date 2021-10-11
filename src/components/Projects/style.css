@@ -1,3 +1,5 @@
+/* NOTE * some styles are insise the Card component. */
+
 .proj-container {
   height: auto;
   display: flex;
@@ -9,6 +11,7 @@
   padding-right: 3rem;
   padding-left: 3rem;
   margin: -1rem;
+  margin-bottom: 0;
 }
 
 .white-wrapper {
@@ -18,7 +21,7 @@
   justify-content: center;
   width: 100%;
   height: auto;
-  max-width: 1400px;
+  max-width: 1300px;
   border-radius: var(--radius);
   background: #fff;
   box-shadow: rgb(46 61 73 / 15%) 0px 0px 25px 5px;

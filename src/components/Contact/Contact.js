@@ -17,6 +17,7 @@ function ContactForm() {
       <label htmlFor='email'>Email Address</label>
       <input className='email' id='email' type='email' name='email' />
       <ValidationError prefix='Email' field='email' errors={state.errors} />
+      <label htmlFor='message'>Message</label>
       <textarea className='message' id='message' name='message' />
       <ValidationError prefix='Message' field='message' errors={state.errors} />
       <button className='submit' type='submit' disabled={state.submitting}>
