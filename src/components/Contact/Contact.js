@@ -5,7 +5,18 @@ function ContactForm() {
   const [state, handleSubmit] = useForm('xyylovjp');
   if (state.succeeded) {
     return (
-      <p>Thanks for reaching out! Expect a reply within 2 business days.</p>
+      <p
+        className='Response-message'
+        style={{
+          fontSize: '5rem',
+          color: '#ffa134',
+          textAlign: 'center',
+          margin: '5rem',
+          padding: '3rem',
+        }}
+      >
+        Thanks for reaching out! Expect a reply within 2 business days.
+      </p>
     );
   }
   return (

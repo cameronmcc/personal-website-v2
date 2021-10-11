@@ -91,6 +91,10 @@
   transition: all 0.2s ease-in;
 }
 
+.response-message {
+  font-size: 5rem;
+}
+
 /* For tiny Screens */
 
 @media screen and (max-width: 760px) {

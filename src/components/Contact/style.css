@@ -5,6 +5,7 @@
   align-items: center;
   width: 100%;
   font-size: 2rem;
+  font-size: 5rem;
 }
 
 .email,
@@ -50,4 +51,8 @@
 
 input {
   padding: '';
+}
+
+.response-message {
+  font-size: 5rem;
 }
