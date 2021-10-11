@@ -4,8 +4,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  font-size: 2rem;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .email,
@@ -14,19 +13,14 @@
 .submit {
   padding: 0.7rem 0.9rem;
   border-radius: 1rem;
-  margin: 1rem;
+  margin: 0.8rem;
   outline: none;
   border: none;
   font-size: 2rem;
   border: 0.2rem solid #fff;
   width: 80%;
-  font-size: 2rem;
   outline: 0.1rem solid rgb(206, 206, 206);
   box-shadow: var(--bx-shdw) 8px 10px 20px 0px;
-  text-align: left;
-}
-
-.label {
   text-align: left;
 }
 
@@ -51,6 +45,7 @@
 
 input {
   padding: '';
+  height: 4rem;
 }
 
 .response-message {

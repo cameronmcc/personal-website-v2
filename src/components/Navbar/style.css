@@ -9,7 +9,7 @@
 
 .navbar {
   background: white;
-  height: 10rem;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 10rem;
+  height: 80px;
   box-shadow: 0px -2px 10px lightgrey;
 }
 
@@ -179,14 +179,6 @@
     width: 100%;
   }
 
-  .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
-    font-size: 3rem;
-  }
-
   .menu-icon {
     display: block;
     position: absolute;
@@ -196,6 +188,15 @@
     font-size: 3rem;
     cursor: pointer;
     color: #252e4d;
+  }
+
+  .navbar-icon svg {
+    font-size: 3rem;
+  }
+
+  .menu-icon svg {
+    font-size: 3rem;
+    margin-top: 0.8rem;
   }
 
   .fa-times {

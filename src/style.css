@@ -32,6 +32,14 @@ html {
   font-size: 62.5%;
 }
 
+.section-heading {
+  font-size: 6rem;
+  line-height: 0.8;
+  font-weight: 600;
+  color: #252e4d;
+  font-size: 6rem;
+}
+
 .header {
   font-size: 2rem;
 }
