@@ -101,19 +101,36 @@
   color: '#a9b3c1';
 }
 
-.btn {
-  border-radius: 0.8rem;
-  background: linear-gradient(320deg, #5c74ec, #0467fb);
-  white-space: nowrap;
-  padding: 1.5rem 16rem;
-  color: #fff;
-  font-size: 20px;
+.btns-link {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.btn,
+.btn2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 50px;
+  width: 100%;
+  max-width: 320px;
+  box-shadow: var(--bx-shdw) 8px 10px 20px 0px;
   outline: none;
   border: none;
   cursor: pointer;
   font-weight: bold;
-  box-shadow: rgb(46 61 73 / 15%) 8px 10px 20px 0px;
-  width: 100%;
+  white-space: nowrap;
+  padding: 1.5rem 16rem;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 0.8rem;
+}
+
+.btn {
+  background: linear-gradient(320deg, #5c74ec, #0467fb);
 }
 
 .btn:hover {
@@ -126,18 +143,7 @@
 }
 
 .btn2 {
-  border-radius: 0.8rem;
   background: linear-gradient(134deg, #418dff, #9763ff);
-  white-space: nowrap;
-  padding: 1.5rem 16rem;
-  color: #fff;
-  font-size: 20px;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  font-weight: bold;
-  box-shadow: rgb(46 61 73 / 15%) 8px 10px 20px 0px;
-  width: 100%;
 }
 
 .btn2:hover {
@@ -234,7 +240,7 @@
     max-width: 320px;
   }
 
-  .btn2Link {
+  .btns-link {
     display: flex;
     height: 100%;
     width: 100%;
@@ -266,16 +272,6 @@
   }
 }
 
-@media screen and (max-width: 1030px) {
-  .btn,
-  .btn2 {
-    padding: 1.5rem 10rem;
-  }
-  .info-row {
-    align-items: center;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .info-column {
     height: auto;
@@ -287,5 +283,14 @@
 
   .text-wrapper {
     padding-bottom: 65px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .btn,
+  .btn2 {
+    padding: 1.5rem 10rem;
+  }
+  .info-row {
+    align-items: center;
   }
 }

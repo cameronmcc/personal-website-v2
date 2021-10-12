@@ -23,7 +23,7 @@ const About = () => {
                   Spring and Django. Feel free to check out some of my work
                   below.
                 </div>
-                <LinkS className='btn2Link' to='technologies'>
+                <LinkS className='btns-link' to='technologies'>
                   <button className='btn2'>Technologies</button>
                 </LinkS>
               </div>
