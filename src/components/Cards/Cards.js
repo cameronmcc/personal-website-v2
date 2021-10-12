@@ -26,8 +26,7 @@ const Cards = () => {
   return (
     <div className='wrapper'>
       {data.map((props) => {
-        // console.log(`${props.btn1}`);
-        // console.log(`${props.btn2}`);
+
         return (
           <div className={`card ${props.accentClass}`}>
             {/* Conditionally rendering the JSX using our state to render divs in the correct order for the styling to work properly. On mobile screens, the IMG needs to be rendered first. On Desktop, the title (h2) needs to be rendered first. */}

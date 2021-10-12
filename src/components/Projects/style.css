@@ -103,9 +103,16 @@
     flex-direction: column;
   }
 
+  .contact-btn-container {
+    width: 90%;
+  }
+
+  .contact-link {
+    width: 100%;
+  }
+
   .contact-btn {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    width: 100%;
   }
 }
 
