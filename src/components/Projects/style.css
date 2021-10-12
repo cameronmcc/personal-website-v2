@@ -82,8 +82,13 @@
 /* For tiny Screens */
 
 @media screen and (max-width: 760px) {
+  .proj-heading-card {
+    display: flex;
+    height: 10rem;
+  }
   .proj-heading {
     font-size: 6rem;
+    display: block;
   }
 
   .proj-container {
@@ -96,11 +101,6 @@
     width: 95%;
     display: flex;
     flex-direction: column;
-  }
-
-  .proj-heading-card {
-    display: inline-block;
-    height: 10rem;
   }
 
   .contact-btn {

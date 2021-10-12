@@ -74,6 +74,18 @@
   transform: scale(1.02);
 }
 
+@media screen and (max-width: 600px) {
+  .tech-heading {
+    font-size: 5rem !important;
+  }
+  .tech-btn-container {
+    width: 90%;
+  }
+  .tech-btn {
+    width: 90%;
+  }
+}
+
 /* For smaller screens */
 
 @media screen and (max-width: 1030px) {

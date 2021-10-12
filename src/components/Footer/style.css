@@ -74,10 +74,11 @@
 .bottom-text {
   margin: 1rem;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .bottom-content {
-  margin-top: 10rem;
+  margin-top: 4rem;
   background-image: linear-gradient(
     90deg,
     var(--first-color),
