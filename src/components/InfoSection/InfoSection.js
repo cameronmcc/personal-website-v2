@@ -1,7 +1,6 @@
 import './style.css';
 import React from 'react';
 import svg2 from '../../images/svg2.svg';
-
 import { Link as LinkS } from 'react-scroll';
 import About from '../About/About';
 
