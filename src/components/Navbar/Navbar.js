@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { DiCssdeck } from 'react-icons/di';
 import { Link as LinkS, animateScroll as scroll } from 'react-scroll';
@@ -7,20 +7,20 @@ import './style.css';
 const Navbar = () => {
   // State Values
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
-  const [scrollNav, setScrollNav] = useState(false);
+  // const [button, setButton] = useState(true);
+  // const [scrollNav, setScrollNav] = useState(false);
 
-  const changeNav = () => {
-    if (window.scrollY >= 80) {
-      setScrollNav(true);
-    } else {
-      setScrollNav(false);
-    }
-  };
+  // const changeNav = () => {
+  //   if (window.scrollY >= 80) {
+  //     setScrollNav(true);
+  //   } else {
+  //     setScrollNav(false);
+  //   }
+  // };
 
-  useEffect(() => {
-    window.addEventListener('scroll', changeNav);
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener('scroll', changeNav);
+  // }, []);
 
   const clickHandler = () => setClick(!click);
 
@@ -30,23 +30,19 @@ const Navbar = () => {
     scroll.scrollToTop();
   };
 
-  const scrollContact = () => {
-    scroll.scrollToBottom();
-  };
+  // const showButton = () => {
+  //   if (window.innerWidth <= 960) {
+  //     setButton(false);
+  //   } else {
+  //     setButton(true);
+  //   }
+  // };
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
+  // useEffect(() => {
+  //   showButton();
+  // }, []);
 
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener('resize', showButton);
+  // window.addEventListener('resize', showButton);
 
   return (
     <>

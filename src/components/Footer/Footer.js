@@ -4,7 +4,7 @@ import ContactForm from '../Contact/Contact';
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
 import { SiLeetcode } from 'react-icons/si';
 import { IconContext } from 'react-icons/lib';
-import { Link as LinkR } from 'react-router-dom';
+// import { Link as LinkR } from 'react-router-dom';
 
 const Footer = () => {
   return (

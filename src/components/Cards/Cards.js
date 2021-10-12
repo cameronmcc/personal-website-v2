@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
 import { data } from '../Projects/data';
-import { Link as LinkR } from 'react-router-dom';
+// import { Link as LinkR } from 'react-router-dom';
 
 const Cards = () => {
   // State value for mobile view

@@ -1,6 +1,5 @@
 import React from 'react';
 import { DiReact, DiFirebase, DiAptana } from 'react-icons/di';
-import { IconContext } from 'react-icons/lib';
 import { Link as LinkS } from 'react-scroll';
 import './style.css';
 
