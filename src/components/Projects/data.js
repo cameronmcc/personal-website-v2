@@ -24,6 +24,6 @@ export const data = [
     desc: "A review app that maps through user data and autoscrolls between users if the next buttons aren't pressed.",
     accentClass: 'card-accent-3',
     link1: 'https://github.com/cameronmcc/slider',
-    link2: 'https://mccloskeymenuproject.netlify.app/',
+    link2: 'https://cmautoslider.netlify.app',
   },
 ];

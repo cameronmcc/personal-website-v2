@@ -1,7 +1,5 @@
 .footer-container {
   background: linear-gradient(to bottom right, #fff 0, rgba(169, 81, 237, 0.1));
-  padding-top: 2rem;
-  padding-bottom: 2rem;
   padding: 4rem 0 0rem 0;
   display: flex;
   flex-direction: column;
@@ -45,7 +43,7 @@
 }
 
 .section-title {
-  margin: 15rem 15rem 3rem 15rem;
+  margin: 5rem 15rem 3rem 15rem;
   display: flex;
   align-items: center;
   justify-content: center;
