@@ -59,6 +59,14 @@
   height: 80px;
 }
 
+.nav-item:active {
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 1030px) {
   .menu-icon {
     display: none;
@@ -70,6 +78,11 @@
     list-style: none;
     text-align: center;
     justify-content: end;
+  }
+
+  .nav-item:active {
+    border: none;
+    color: rgb(1, 122, 155);
   }
 }
 

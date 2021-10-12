@@ -5,7 +5,10 @@ export const data = [
     title: 'Personal Website',
     desc: 'A personal website using React. Fully dynamic using custom Hooks, useState/Effect, and Smooth-scrooll + React-router.',
     btn1: 'https://github.com/cameronmcc/personal-website-v2',
-    btn2: 'cameronmccloskey.com',
+    btn2: 'https://cameronmccloskey.com',
+    accentClass: 'card-accent-1',
+    link1: 'https://github.com/cameronmcc/personal-website-v2',
+    link2: 'https://cameronmccloskey.com',
     accentClass: 'card-accent-1',
   },
   {
@@ -16,6 +19,8 @@ export const data = [
     btn1: 'https://github.com/cameronmcc/menuProject',
     btn2: 'https://mccloskeymenuproject.netlify.app/',
     accentClass: 'card-accent-2',
+    link1: 'https://github.com/cameronmcc/menuProject',
+    link2: 'https://mccloskeymenuproject.netlify.app/',
   },
   {
     id: '3',
@@ -25,5 +30,7 @@ export const data = [
     btn1: 'https://github.com/cameronmcc/slider',
     btn2: 'https://mccloskeymenuproject.netlify.app/',
     accentClass: 'card-accent-3',
+    link1: 'https://github.com/cameronmcc/slider',
+    link2: 'https://mccloskeymenuproject.netlify.app/',
   },
 ];

@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <>
       <IconContext.Provider value={{ size: '7rem', color: '#252e4d' }}>
-        <div className='footer-container'>
+        <div id='footer' className='footer-container'>
           <h2 className='section-title section-heading'>Contact</h2>
           <div className='footer-heading-1'>
             Thanks for visiting! Feel free to reach out and connect.
@@ -19,9 +19,9 @@ const Footer = () => {
             <div className='socials-wrapper'>
               <div className='footer-subtext'>Socials:</div>
               <div className='socials-grid'>
-                <LinkR to='https://www.github.com/cameronmcc'>
+                <a href='https://www.github.com/cameronmcc'>
                   <AiFillGithub className='social-icons' />
-                </LinkR>
+                </a>
                 <a href='https://www.linkedin.com/in/cameronmccloskey/'>
                   <AiFillLinkedin className='social-icons' />
                 </a>

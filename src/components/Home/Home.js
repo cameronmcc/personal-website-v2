@@ -1,11 +1,11 @@
-import React from "react";
-import InfoSection from "../InfoSection/InfoSection";
-import "./style.css";
+import React from 'react';
+import InfoSection from '../InfoSection/InfoSection';
+import './style.css';
 
 const Home = () => {
   return (
     <>
-      <InfoSection>Hello</InfoSection>
+      <InfoSection id='home'>Hello</InfoSection>
     </>
   );
 };

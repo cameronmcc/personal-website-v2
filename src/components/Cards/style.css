@@ -65,9 +65,12 @@
 
 .card-btn-wrapper {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
   width: 100%;
+}
+
+.card__link {
+  text-decoration: none;
 }
 
 .card__btn {
@@ -188,6 +191,23 @@
 
   .card__title {
     font-size: 3.2rem;
+  }
+
+  .card-btn-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card__link,
+  .card__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 4rem;
   }
 
   .card__description {

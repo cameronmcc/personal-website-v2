@@ -1,12 +1,13 @@
 import React from 'react';
 import { DiReact, DiFirebase, DiAptana } from 'react-icons/di';
 import { IconContext } from 'react-icons/lib';
+import { Link as LinkS } from 'react-scroll';
 import './style.css';
 
 const Technologies = () => {
   return (
     <>
-      <div className='technologies-container'>
+      <div id='technologies' className='technologies-container'>
         <div className='content-wrapper'>
           <div className='tech-heading section-heading'>Technologies</div>
           <section className='tech-items-container'>
@@ -44,9 +45,9 @@ const Technologies = () => {
               </div>
             </div>
           </section>
-          <div className='tech-btn-container'>
+          <LinkS to='portfolio' className='tech-btn-container'>
             <button className='tech-btn'>Go to Portfolio</button>
-          </div>
+          </LinkS>
         </div>
       </div>
     </>

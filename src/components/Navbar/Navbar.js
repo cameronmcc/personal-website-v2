@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { DiCssdeck } from 'react-icons/di';
-import { IconContext } from 'react-icons/lib';
 import { Link as LinkS, animateScroll as scroll } from 'react-scroll';
 import './style.css';
 
@@ -25,21 +24,16 @@ const Navbar = () => {
 
   const clickHandler = () => setClick(!click);
 
-  // When the mobile menu disappears setclick sets to false
   const closeMobileMenu = () => setClick(false);
 
-  // This function utilizes scroll.scrollToTop from react-scroll to.. you guessed it.. scroll to the top of the page!
   const toggleHome = () => {
     scroll.scrollToTop();
   };
 
-  // Since out contact page is in the footer, we will use this function whenevr we click the contact buttons to scroll down to the correct page.
-
-  const scrollToBottom = () => {
+  const scrollContact = () => {
     scroll.scrollToBottom();
   };
 
-  // showButton shows our mobile Nav menu button only when the screen width drops below 960 px utilizing useEffect below.
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -61,7 +55,7 @@ const Navbar = () => {
           <a
             href='/'
             className='navbar-logo'
-            onClick={[closeMobileMenu, toggleHome]}
+            onClick={(closeMobileMenu, toggleHome)}
           >
             <DiCssdeck className='navbar-icon' />
             Cameron McCloskey
@@ -71,37 +65,76 @@ const Navbar = () => {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <a href='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
-              </a>
-            </li>
-            <li className='nav-item'>
-              <a href='/about' className='nav-links' onClick={closeMobileMenu}>
-                About
-              </a>
-            </li>
-            <li className='nav-item'>
-              <a
-                href='/technologies'
+              <LinkS
+                to='home'
+                onClick={(toggleHome, closeMobileMenu)}
                 className='nav-links'
-                onClick={closeMobileMenu}
+                smooth={true}
+                duration={1}
+                spy={true}
+                exact='true'
+                offset={-80}
+                activeClass='active'
+              >
+                Home
+              </LinkS>
+            </li>
+            <li className='nav-item'>
+              <LinkS
+                to='about'
+                spy={true}
+                exact='true'
+                offset={-80}
+                duration={500}
+                className='nav-links'
+                onClick={(closeMobileMenu, clickHandler)}
+                activeClass='active'
+              >
+                About
+              </LinkS>
+            </li>
+            <li className='nav-item'>
+              <LinkS
+                to='technologies'
+                className='nav-links'
+                spy={true}
+                exact='true'
+                offset={-80}
+                duration={500}
+                onClick={(closeMobileMenu, clickHandler)}
+                activeClass='active'
               >
                 Technologies
-              </a>
+              </LinkS>
             </li>
             <li className='nav-item'>
-              <a
-                href='/portfolio'
+              <LinkS
+                to='portfolio'
+                spy={true}
+                exact='true'
+                offset={-80}
+                duration={500}
                 className='nav-links'
-                onClick={closeMobileMenu}
+                onClick={(closeMobileMenu, clickHandler)}
+                activeClass='active'
               >
                 Portfolio
-              </a>
+              </LinkS>
             </li>
             <li>
-              <a href='contact' className='btn-link'>
+              <LinkS
+                to='footer'
+                smooth={true}
+                exact='true'
+                offset={-80}
+                duration={100}
+                spy={true}
+                onClick={(closeMobileMenu, clickHandler)}
+                className='btn-link'
+                activeClass='active'
+              >
                 <button className='btn--outline'>Contact</button>
-              </a>
+              </LinkS>
             </li>
           </ul>
         </div>

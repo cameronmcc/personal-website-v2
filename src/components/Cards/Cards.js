@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
 import { data } from '../Projects/data';
+import { Link as LinkR } from 'react-router-dom';
 
-const Cards = ({ props }) => {
+const Cards = () => {
   // State value for mobile view
   const [mobileView, setMobileView] = useState(false);
 
@@ -21,9 +22,12 @@ const Cards = ({ props }) => {
   window.addEventListener('resize', changeMobileView);
 
   console.log(window.innerWidth);
+  console.log(`${data.btn2}`);
   return (
     <div className='wrapper'>
       {data.map((props) => {
+        // console.log(`${props.btn1}`);
+        // console.log(`${props.btn2}`);
         return (
           <div className={`card ${props.accentClass}`}>
             {/* Conditionally rendering the JSX using our state to render divs in the correct order for the styling to work properly. On mobile screens, the IMG needs to be rendered first. On Desktop, the title (h2) needs to be rendered first. */}
@@ -33,12 +37,13 @@ const Cards = ({ props }) => {
                 <img src={props.img} alt='alt' className='card__img' />
                 <p className='card__description'>{props.desc}</p>
                 <div className='card-btn-wrapper'>
-                  <button className='card__btn'>
-                    <a href={props.btn1}></a>Code
-                  </button>
-                  <button className='card__btn'>
-                    <a href={props.btn2}></a>Live Site
-                  </button>
+                  <a className='card__link' href={props.link1}>
+                    <button className='card__btn'>Code</button>
+                  </a>
+
+                  <a className='card__link' href={props.link2}>
+                    <button className='card__btn'>Live Site</button>
+                  </a>
                 </div>
               </>
             ) : (
@@ -48,12 +53,12 @@ const Cards = ({ props }) => {
                   <h2 className='card__title'>{props.title}</h2>
                   <p className='card__description'>{props.desc}</p>
                   <div className='card-btn-wrapper'>
-                    <button className='card__btn'>
-                      <a href={props.btn1}></a>Code
-                    </button>
-                    <button className='card__btn'>
-                      <a href={props.btn2}></a>Live Site
-                    </button>
+                    <a className='card__link' href={props.link1}>
+                      <button className='card__btn'>Code</button>
+                    </a>
+                    <a className='card__link' href={props.link2}>
+                      <button className='card__btn'>Live Site</button>
+                    </a>
                   </div>
                 </div>
               </>
