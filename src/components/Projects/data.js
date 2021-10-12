@@ -5,7 +5,7 @@ export const data = [
     title: 'Personal Website',
     desc: 'A personal website using React. Fully dynamic using custom Hooks, useState/Effect, and Smooth-scrooll + React-router.',
     link1: 'https://github.com/cameronmcc/personal-website-v2',
-    link2: 'https://cameronmccloskey.com',
+    link2: 'https://cameronsportfolio.netlify.app',
     accentClass: 'card-accent-1',
   },
   {
