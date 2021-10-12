@@ -2,8 +2,6 @@ import './style.css';
 import React from 'react';
 import svg2 from '../../images/svg2.svg';
 import svg3 from '../../images/svg3.svg';
-import bgImage1 from '../../images/bgImage1.svg';
-import bgImage2 from '../../images/bgImage2.jpg';
 import { Link as LinkS } from 'react-scroll';
 
 const InfoSection = () => {

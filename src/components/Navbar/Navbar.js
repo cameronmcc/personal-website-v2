@@ -25,12 +25,18 @@ const Navbar = () => {
 
   const clickHandler = () => setClick(!click);
 
-  // When the mobile menu disappears setclick is set to false
+  // When the mobile menu disappears setclick sets to false
   const closeMobileMenu = () => setClick(false);
 
-  // This function utilizes animateScroll from 'react-icons' to scroll to the top of the page
+  // This function utilizes scroll.scrollToTop from react-scroll to.. you guessed it.. scroll to the top of the page!
   const toggleHome = () => {
     scroll.scrollToTop();
+  };
+
+  // Since out contact page is in the footer, we will use this function whenevr we click the contact buttons to scroll down to the correct page.
+
+  const scrollToBottom = () => {
+    scroll.scrollToBottom();
   };
 
   // showButton shows our mobile Nav menu button only when the screen width drops below 960 px utilizing useEffect below.
@@ -52,7 +58,11 @@ const Navbar = () => {
     <>
       <nav className='navbar'>
         <div className='navbar-container container'>
-          <a href='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <a
+            href='/'
+            className='navbar-logo'
+            onClick={[closeMobileMenu, toggleHome]}
+          >
             <DiCssdeck className='navbar-icon' />
             Cameron McCloskey
           </a>
