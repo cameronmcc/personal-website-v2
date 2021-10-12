@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div className='grid-wrapper'>
             <div className='socials-wrapper'>
-              <div className='footer-subtext'>Socials:</div>
+              <div className='footer-subtext'>Social:</div>
               <div className='socials-grid'>
                 <a href='https://www.github.com/cameronmcc'>
                   <AiFillGithub className='social-icons' />
