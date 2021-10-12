@@ -95,7 +95,7 @@ const Navbar = () => {
                 className='nav-links'
                 spy={true}
                 exact='true'
-                offset={-80}
+                offset={-20}
                 duration={500}
                 onClick={(closeMobileMenu, clickHandler)}
                 activeClass='active'
