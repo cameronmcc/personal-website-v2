@@ -23,7 +23,7 @@ const About = () => {
                   I've also coded in Spring and Django. Feel free to check out
                   some of my work below.
                 </div>
-                <LinkS to='portfolio'>
+                <LinkS to='technologies'>
                   <button className='btn2'>Technologies</button>
                 </LinkS>
               </div>
