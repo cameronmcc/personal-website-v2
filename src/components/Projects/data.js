@@ -4,7 +4,6 @@ export const data = [
     img: require('../../images/proj1.png').default,
     title: 'Personal Website',
     desc: 'A personal website using React. Fully dynamic using custom Hooks, useState/Effect, and Smooth-scrooll + React-router.',
-    accentClass: 'card-accent-1',
     link1: 'https://github.com/cameronmcc/personal-website-v2',
     link2: 'https://cameronmccloskey.com',
     accentClass: 'card-accent-1',

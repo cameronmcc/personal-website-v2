@@ -5,7 +5,7 @@ import Technologies from './components/Technologies/Technologies';
 import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './style.css';
 
 function App() {
@@ -17,9 +17,6 @@ function App() {
         <Technologies />
         <Projects />
         <Footer />
-        <Switch>
-          <Route path='/' exact />
-        </Switch>
       </Router>
     </>
   );
