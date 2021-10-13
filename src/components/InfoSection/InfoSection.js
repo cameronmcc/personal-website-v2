@@ -15,7 +15,7 @@ const InfoSection = () => {
                 Cameron McCloskey
                 <div className='heading'>
                   Welcome to my Personal Portfolio
-                  <div className='subtitle'>Full Stack Developr</div>
+                  <div className='subtitle'>Full Stack Developer</div>
                   <LinkS to='portfolio' className='btns-link'>
                     <button className='btn'>Projects</button>
                   </LinkS>
