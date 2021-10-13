@@ -13,8 +13,8 @@ const Technologies = () => {
             <div className='tech-items tech-item-1'>
               <div className='tech-item-row'>
                 <DiReact size='8rem' className='tech-icons' />
-                <div className='tech-text-wrsapper'>
-                  <div className='tech-item-heading'>Front-End</div>
+                <div className='tech-text-wrapper'>
+                  <div className='tech-items-heading'>Front-End</div>
                   <h3>React</h3>
                   <h3>CSS</h3>
                   <h3>HTML</h3>
