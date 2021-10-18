@@ -10,7 +10,14 @@ const InfoSection = () => {
     <container id='home' className='info-section-container'>
       <section className='info-sections info-section'>
         <div className='gradient'>
-          <video className='test-video' autoPlay loop muted alt='video'>
+          <video
+            className='test-video'
+            playsInline
+            autoPlay
+            loop
+            muted
+            alt='video'
+          >
             <source src={heroBg} type='video/mp4'></source>
           </video>
           <div className='info-row'>
