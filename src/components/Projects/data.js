@@ -11,7 +11,7 @@ export const data = [
   {
     id: '2',
     img: require('../../images/proj4.png').default,
-    title: 'Crypto Price Tracker',
+    title: 'Crypto Tracker',
     desc: "An app that displays cryptocurrency values in a table with historical price data using coingecko's api.",
     accentClass: 'card-accent-2',
     link1: 'https://github.com/cameronmcc/cryptoTracker',
@@ -19,11 +19,11 @@ export const data = [
   },
   {
     id: '3',
-    img: require('../../images/proj2.png').default,
-    title: 'Menu App',
-    desc: 'A React menu app that maps through data and dynamically generates Category tabs for quick updates.',
+    img: require('../../images/weather.png').default,
+    title: 'Weather App',
+    desc: 'This App uses data from the openweathermap api and uses Vue.js. Type in a city to get current weather data!',
     accentClass: 'card-accent-3',
-    link1: 'https://github.com/cameronmcc/menuProject',
-    link2: 'https://mccloskeymenuproject.netlify.app/',
+    link1: 'https://github.com/cameronmcc/weather-app',
+    link2: 'https://camerons-weather-app.netlify.app/',
   },
 ];
