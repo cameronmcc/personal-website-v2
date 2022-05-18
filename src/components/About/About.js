@@ -19,9 +19,9 @@ const About = () => {
                 About Me
                 <div className='subtitle'>
                   I'm Cameron and I'm a full stack developer specialized in
-                  making React apps using the MERN Framework. I've also coded in
-                  Spring and Django. Feel free to check out some of my work
-                  below.
+                  making web applications with Javascript and React, having
+                  experience with MERN, PHP/Laravel, as well as Python/Django
+                  and Java/Spring Frameworks.
                 </div>
                 <LinkS className='btns-link' to='technologies'>
                   <button className='btn2'>Technologies</button>

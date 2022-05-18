@@ -15,9 +15,10 @@ const Technologies = () => {
                 <DiReact size='8rem' className='tech-icons' />
                 <div className='tech-text-wrapper'>
                   <div className='tech-items-heading'>Front-End</div>
-                  <h3>React</h3>
-                  <h3>CSS</h3>
+                  <h3>React, Vue</h3>
+                  <h3>CSS, Styled Components</h3>
                   <h3>HTML</h3>
+                  <h3>Material UI</h3>
                 </div>
               </div>
             </div>
@@ -28,7 +29,8 @@ const Technologies = () => {
                   <div className='tech-items-heading'>Back-End</div>
                   <h3>Javascript</h3>
                   <h3>Python</h3>
-                  <h3>Node.js</h3>
+                  <h3>Node</h3>
+                  <h3>PHP</h3>
                 </div>
               </div>
             </div>
@@ -38,7 +40,8 @@ const Technologies = () => {
                 <div className='tech-text-wrapper'>
                   <div className='tech-items-heading'>Databases</div>
                   <h3>MongoDB</h3>
-                  <h3>SQL/NOSQL</h3>
+                  <h3>MySQL/NOSQL</h3>
+                  <h3>Eloquent ORM</h3>
                   <h3>Django ORM</h3>
                 </div>
               </div>
