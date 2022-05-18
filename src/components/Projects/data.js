@@ -6,7 +6,7 @@ export const data = [
     desc: 'Saas product with React, PHP, Laravel + MySQL. Team management + QR codes so the public can see cleaning history. Launched: 2/28/2022',
     accentClass: 'card-accent-1',
     link1: 'https://www.cleancode.us/',
-    link2: '',
+    link2: 'https://www.cleancode.us/',
   },
   {
     id: '2',
