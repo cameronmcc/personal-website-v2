@@ -26,7 +26,6 @@ const Cards = () => {
   return (
     <div className='wrapper'>
       {data.map((props) => {
-
         return (
           <div className={`card ${props.accentClass}`}>
             {/* Conditionally rendering the JSX using our state to render divs in the correct order for the styling to work properly. On mobile screens, the IMG needs to be rendered first. On Desktop, the title (h2) needs to be rendered first. */}
@@ -37,7 +36,9 @@ const Cards = () => {
                 <p className='card__description'>{props.desc}</p>
                 <div className='card-btn-wrapper'>
                   <a className='card__link' href={props.link1}>
-                    <button className='card__btn'>Code</button>
+                    <button className='card__btn'>
+                      {props.professional ? 'Live Site Only' : 'Code'}
+                    </button>
                   </a>
 
                   <a className='card__link' href={props.link2}>
@@ -53,7 +54,9 @@ const Cards = () => {
                   <p className='card__description'>{props.desc}</p>
                   <div className='card-btn-wrapper'>
                     <a className='card__link' href={props.link1}>
-                      <button className='card__btn'>Code</button>
+                      <button className='card__btn'>
+                        {props.professional ? 'Live Site Only' : 'Code'}
+                      </button>
                     </a>
                     <a className='card__link' href={props.link2}>
                       <button className='card__btn'>Live Site</button>

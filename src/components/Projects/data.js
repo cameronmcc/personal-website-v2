@@ -7,6 +7,7 @@ export const data = [
     accentClass: 'card-accent-1',
     link1: 'https://www.cleancode.us/',
     link2: 'https://www.cleancode.us/',
+    professional: true,
   },
   {
     id: '2',
@@ -16,6 +17,7 @@ export const data = [
     link1: 'https://github.com/cameronmcc/personal-website-v2',
     link2: 'https://cameronsportfolio.netlify.app',
     accentClass: 'card-accent-2',
+    professional: false,
   },
   {
     id: '3',
@@ -25,6 +27,7 @@ export const data = [
     accentClass: 'card-accent-3',
     link1: 'https://github.com/cameronmcc/cryptoTracker',
     link2: 'https://cameronscrypto.netlify.app/',
+    professional: false,
   },
   // {
   //   id: '3',
