@@ -18,7 +18,7 @@ const Technologies = () => {
                   <h3>React, Vue</h3>
                   <h3>CSS, Styled Components</h3>
                   <h3>HTML</h3>
-                  <h3>Material UI</h3>
+                  <h3>Material UI, Vuetify</h3>
                 </div>
               </div>
             </div>
