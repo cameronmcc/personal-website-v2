@@ -80,7 +80,7 @@ const Navbar = () => {
                 to='about'
                 spy={true}
                 exact='true'
-                offset={-80}
+                offset={-180}
                 duration={500}
                 className='nav-links'
                 onClick={(closeMobileMenu, clickHandler)}
@@ -108,7 +108,7 @@ const Navbar = () => {
                 to='portfolio'
                 spy={true}
                 exact='true'
-                offset={-80}
+                offset={50}
                 duration={500}
                 className='nav-links'
                 onClick={(closeMobileMenu, clickHandler)}
@@ -122,7 +122,7 @@ const Navbar = () => {
                 to='footer'
                 smooth={true}
                 exact='true'
-                offset={-80}
+                offset={100}
                 duration={100}
                 spy={true}
                 onClick={(closeMobileMenu, clickHandler)}
